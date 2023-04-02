@@ -5,7 +5,7 @@ import Header from '../components/Header.vue'
 <template>
   <div class="profile">
     <Header></Header>
-    Profileです！
+    Worksです！
   </div>
 </template>
 

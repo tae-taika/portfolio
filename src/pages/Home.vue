@@ -1,19 +1,18 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router';
+import Header from '../components/Header.vue'
 </script>
 
 <template>
   <div class="home">
-    <div class="home__inner">
-          <RouterLink to="/profile">プロフィールにとぶよ！</RouterLink>
-    </div>
+    <Header></Header>
+    TOPです！
   </div>
 </template>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables';
+
 .home{
-  &__inner{
-    background: #F00;
-  }
+
 }
 </style>
