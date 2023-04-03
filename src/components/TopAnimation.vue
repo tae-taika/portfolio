@@ -4,8 +4,7 @@
 
 <template>
   <div class="top-animation">
-    <div class="top">
-	    <!-- <div class="taikaika_anime_move">
+    <!-- <div class="taikaika_anime_move">  
 		  <object id="EdgeID" type="text/html" width="372" height="224" data-dw-widget="Edge" data="common/edgeanimate_assets/taikaika_anime_move2/Assets/taikaika_anime_move2.html">
 		  </object>
 	  </div>
@@ -13,10 +12,10 @@
 	    <object id="EdgeID2" type="text/html" width="120" height="224" data-dw-widget="Edge" data="common/edgeanimate_assets/taikaika_anime_stop/Assets/taikaika_anime_stop.html">
       </object>
     </div> -->
-    <div class="title">
+    <div class="top-animation__title">
       <h1>
         <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 580 140" style="enable-background:new 0 0 580 140;" xml:space="preserve">
-          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/logo.svg" width="580" height="140" mask="url(#clipmask)"></image>
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/logo.svg" width="580" height="140" mask="url(#clipmask)"></image>
           <mask id="clipmask" maskUnits="objectBoundingBox">
           <path class="st0" d="M33.5,75.5l-16,45c0,0,23-45,35-39s-5,36-5,36s23-40,33-34s-11,29-1,34s33-27,33-27"/>
           <path class="st0" d="M118.5,80.5c0,0-21,32-10,37s35-25,35-25"/>
@@ -35,7 +34,6 @@
       </h1>
       <p class="txt_c">I'm a web designer, web developer and graphic designer.</p>
       <a href="#main"><span></span>Scroll</a>
-      </div>
     </div>
   </div>
 </template>
@@ -43,9 +41,6 @@
 <style lang="scss" scoped>
 @import '../assets/scss/variables';
 .top-animation {
-  
-}
-.top{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -54,20 +49,25 @@
 	height: 100vh;
 	background-color:#f9f9e7;
 	position: relative;
-}
-.taikaika_anime_move{
-	position: absolute;
-	left: 50%;
-	top:15%;*
-}
-.taikaika_anime_sp{
-	display: none;
-}
-.title{
-	width: 40vw;
+
+// .taikaika_anime_move{
+// 	position: absolute;
+// 	left: 50%;
+// 	top:15%;
+// }
+// .taikaika_anime_sp{
+// 	display: none;
+// }
+&__title{
+  @include mediaQuery(sm){
+    width: 40vw;
+  }
+  @include mediaQuery(sm){
+    width: 60vw;
+  }
 }
 
-.title .st0{
+&__title .st0{
 	fill:none;
 	stroke:#FFFFFF;
 	stroke-width:20;
@@ -78,7 +78,7 @@
 	stroke-dashoffset:1500;
 }
 
-.title a{
+&__title a{
 	position: absolute;
 	bottom: 10px;
 	left: 50%;
@@ -88,20 +88,18 @@
 	transform: translate(-50%, 0);
 	text-decoration: none;
 	padding-top: 60px;
-
-}
-.title a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 30px;
-  height: 50px;
-  margin-left: -15px;
-  border: 2px solid #333;
-  border-radius: 50px;
-  box-sizing: border-box;
-}
-.title a span::before {
+  span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #333;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  span::before {
   position: absolute;
   top: 10px;
   left: 50%;
@@ -114,7 +112,9 @@
   -webkit-animation: sdb 2s infinite;
   animation: sdb 2s infinite;
   box-sizing: border-box;
+  }
 }
+
 @-webkit-keyframes sdb {
   0% {
     -webkit-transform: translate(0, 0);
@@ -148,18 +148,16 @@
   }
 }
 
-		@media screen and (max-width: 768px){
-				.taikaika_anime_move{
-					display: none;
-				}
-				.taikaika_anime_sp{
-					display: block;
-					position: absolute;
-					left: 40%;
-					top: 8%;
-				}
-				.title{
-					width: 60vw;
-				}
-			}
+// @media screen and (max-width: 768px){
+//     .taikaika_anime_move{
+//       display: none;
+//     }
+//     .taikaika_anime_sp{
+//       display: block;
+//       position: absolute;
+//       left: 40%;
+//       top: 8%;
+//     }
+//   }
+}
 </style>

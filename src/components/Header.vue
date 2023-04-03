@@ -18,7 +18,6 @@ import { RouterLink } from 'vue-router';
 .header {
   background-color: $beige-light;
   width: 100vw;
- 
   &__inner{
     padding: 40px 80px;
     color: $black;
