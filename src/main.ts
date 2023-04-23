@@ -1,12 +1,16 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './route'
-import * as Vivus from 'vivus';
+import Vivus from 'vivus';
+// import breadcrumbs from 'vue-3-breadcrumbs'
 
 const app = createApp(App)
 app.use(router)
 app.mount('#app')
 
+// app.use(breadcrumbs, {
+//     includeComponent: false // {boolean} [includeComponent=false] - Include global breadcrumbs component or not
+// })
 
 window.onload = () => {
     const vivus = new Vivus('logo', {

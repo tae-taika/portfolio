@@ -3,9 +3,9 @@ import Header from '@/components/Header.vue'
 </script>
 
 <template>
-  <div class="works">
+  <div class="profile">
     <Header></Header>
-    Worksだよ
+    Skillです！
   </div>
 </template>
 

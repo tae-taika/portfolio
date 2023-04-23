@@ -9,8 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^18.16.0",
+    "vite-plugin-fonts": "^0.7.0",
     "vivus": "^0.4.6",
     "vue": "^3.2.47",
+    "vue-3-breadcrumbs": "^2.0.0",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {

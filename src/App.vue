@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 
-import './assets/scss/common.scss'
+import '@/assets/scss/common.scss'
 
 </script>
 

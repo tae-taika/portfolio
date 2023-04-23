@@ -4,14 +4,6 @@
 
 <template>
   <div class="top-animation">
-    <!-- <div class="taikaika_anime_move">  
-		  <object id="EdgeID" type="text/html" width="372" height="224" data-dw-widget="Edge" data="common/edgeanimate_assets/taikaika_anime_move2/Assets/taikaika_anime_move2.html">
-		  </object>
-	  </div>
-	  <div class="taikaika_anime_sp">
-	    <object id="EdgeID2" type="text/html" width="120" height="224" data-dw-widget="Edge" data="common/edgeanimate_assets/taikaika_anime_stop/Assets/taikaika_anime_stop.html">
-      </object>
-    </div> -->
     <div class="top-animation__title">
       <h1>
         <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 580 140" style="enable-background:new 0 0 580 140;" xml:space="preserve">
@@ -32,9 +24,9 @@
           </mask>
         </svg>
       </h1>
-      <p class="txt_c">I'm a web designer, web developer and graphic designer.</p>
-      <a href="#main"><span></span>Scroll</a>
     </div>
+    <div class="top-animation__text">I'm a web designer, web developer, graphic designer, product manager, web writer. </div>
+    <!-- <div class="top-animation__scroll"><span></span>Scroll</div> -->
   </div>
 </template>
 
@@ -46,118 +38,101 @@
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	height: 100vh;
-	background-color:#f9f9e7;
+	height: 50vh;
+	background-color: $beige-light;
 	position: relative;
 
-// .taikaika_anime_move{
-// 	position: absolute;
-// 	left: 50%;
-// 	top:15%;
-// }
-// .taikaika_anime_sp{
-// 	display: none;
-// }
-&__title{
-  @include mediaQuery(sm){
-    width: 40vw;
+  &__title{
+    text-align: center;
+    @include mediaQuery(lg){
+      width: 40vw;
+    }
+    @include mediaQuery(sm){
+      width: 60vw;
+    }
   }
-  @include mediaQuery(sm){
-    width: 60vw;
+  &__title .st0{
+    fill:none;
+    stroke: $white;
+    stroke-width:20;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+    stroke-dasharray: 1500;
+    stroke-dashoffset:1500;
   }
+  &__text{
+    font-family: $en-font;
+  }
+  // &__scroll{
+  //   position: absolute;
+  //   bottom: 10px;
+  //   left: 50%;
+  //   z-index: 2;
+  //   display: inline-block;
+  //   -webkit-transform: translate(-50%, 0);
+  //   transform: translate(-50%, 0);
+  //   text-decoration: none;
+  //   padding-top: 60px;
+  //   font-family: $en-font;
+  //   span {
+  //     position: absolute;
+  //     top: 0;
+  //     left: 50%;
+  //     width: 30px;
+  //     height: 50px;
+  //     margin-left: -15px;
+  //     border: 2px solid $black;
+  //     border-radius: 50px;
+  //     box-sizing: border-box;
+  //   }
+  //   span::before {
+  //     position: absolute;
+  //     top: 10px;
+  //     left: 50%;
+  //     content: '';
+  //     width: 6px;
+  //     height: 6px;
+  //     margin-left: -3px;
+  //     background-color: $green-light;
+  //     border-radius: 100%;
+  //     -webkit-animation: sdb 2s infinite;
+  //     animation: sdb 2s infinite;
+  //     box-sizing: border-box;
+  //   }
+  // }
 }
 
-&__title .st0{
-	fill:none;
-	stroke:#FFFFFF;
-	stroke-width:20;
-	stroke-linecap:round;
-	stroke-linejoin:round;
-	stroke-miterlimit:10;
-	stroke-dasharray: 1500;
-	stroke-dashoffset:1500;
-}
-
-&__title a{
-	position: absolute;
-	bottom: 10px;
-	left: 50%;
-	z-index: 2;
-	display: inline-block;
-	-webkit-transform: translate(-50%, 0);
-	transform: translate(-50%, 0);
-	text-decoration: none;
-	padding-top: 60px;
-  span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 30px;
-    height: 50px;
-    margin-left: -15px;
-    border: 2px solid #333;
-    border-radius: 50px;
-    box-sizing: border-box;
-  }
-  span::before {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  content: '';
-  width: 6px;
-  height: 6px;
-  margin-left: -3px;
-  background-color: #00ede2;
-  border-radius: 100%;
-  -webkit-animation: sdb 2s infinite;
-  animation: sdb 2s infinite;
-  box-sizing: border-box;
-  }
-}
-
-@-webkit-keyframes sdb {
-  0% {
-    -webkit-transform: translate(0, 0);
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    -webkit-transform: translate(0, 20px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes sdb {
-  0% {
-    transform: translate(0, 0);
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    transform: translate(0, 20px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-// @media screen and (max-width: 768px){
-//     .taikaika_anime_move{
-//       display: none;
-//     }
-//     .taikaika_anime_sp{
-//       display: block;
-//       position: absolute;
-//       left: 40%;
-//       top: 8%;
-//     }
+// @-webkit-keyframes sdb {
+//   0% {
+//     -webkit-transform: translate(0, 0);
+//     opacity: 0;
 //   }
-}
+//   40% {
+//     opacity: 1;
+//   }
+//   80% {
+//     -webkit-transform: translate(0, 20px);
+//     opacity: 0;
+//   }
+//   100% {
+//     opacity: 0;
+//   }
+// }
+// @keyframes sdb {
+//   0% {
+//     transform: translate(0, 0);
+//     opacity: 0;
+//   }
+//   40% {
+//     opacity: 1;
+//   }
+//   80% {
+//     transform: translate(0, 20px);
+//     opacity: 0;
+//   }
+//   100% {
+//     opacity: 0;
+//   }
+// }
 </style>

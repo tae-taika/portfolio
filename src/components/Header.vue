@@ -7,8 +7,8 @@ import { RouterLink } from 'vue-router';
     <div class="header__inner">
       <RouterLink to="/" class="header__link-item">TOP</RouterLink>
       <RouterLink to="/works" class="header__link-item">Work</RouterLink>
+      <RouterLink to="/skill" class="header__link-item">Skill</RouterLink>
       <RouterLink to="/profile" class="header__link-item">Profile</RouterLink>
-      <RouterLink to="/" class="header__link-item">contact</RouterLink>
     </div>
   </div>
 </template>
@@ -18,26 +18,33 @@ import { RouterLink } from 'vue-router';
 .header {
   background-color: $beige-light;
   width: 100vw;
+  height: 80px;
+  font-family: $en-font;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   &__inner{
-    padding: 40px 80px;
+    padding: 0 80px;
     color: $black;
     display: grid;
     grid-template-columns: repeat(4,max-content);
     column-gap: 16px;
-    justify-content: end;
   }
   a{
-    color: $black;
+    color: $gray-light;
     text-decoration: none;
   }
   a:active{
-    color: $black;
+    color: $gray-light;
   }
   a:visited{
-    color: $black;
+    color: $gray-light;
   }
   a:hover{
-    color: $black;
+    color: $green-light;
   }
 }
 </style>
