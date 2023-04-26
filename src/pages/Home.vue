@@ -22,6 +22,7 @@ import Footer from '@/components/Footer.vue';
             </div>
           </div>
         </RouterLink>
+        <RouterLink to="/myjinja">
         <div class="home__works-item">
           <img src="img/img_works_myjinja.png" width="317" height="178">
           <div class="home__works-item--text">
@@ -31,9 +32,18 @@ import Footer from '@/components/Footer.vue';
             </p>
           </div>
         </div>
+        </RouterLink>
+        <RouterLink to="/mykyujin">
         <div class="home__works-item">
-          <img src="img/img_works_gp.png" width="317" height="178">
-        </div>            
+          <img src="img/img_works_mykyujin.png" width="317" height="178">
+          <div class="home__works-item--text">
+            <p>
+              業界特化型求人サイト「My求人」<br>
+              <span>Design/Cording/Director</span>
+            </p>
+          </div>
+        </div>
+        </RouterLink>           
       </div>
     </div>
     <div class="home__section">

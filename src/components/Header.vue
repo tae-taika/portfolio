@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router';
   <div class="header">
     <div class="header__inner">
       <RouterLink to="/" class="header__link-item">TOP</RouterLink>
-      <RouterLink to="/works" class="header__link-item">Work</RouterLink>
+      <RouterLink to="/works" class="header__link-item">Works</RouterLink>
       <RouterLink to="/skill" class="header__link-item">Skill</RouterLink>
       <RouterLink to="/profile" class="header__link-item">Profile</RouterLink>
     </div>

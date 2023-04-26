@@ -1,9 +1,11 @@
 @import './_reset';
 @import './_variables';
 @import './_layout';
+@import './_works';
 
 body{
     color: $black;
+    font-family: $jp-font;
 }
 a {
     color: $black;

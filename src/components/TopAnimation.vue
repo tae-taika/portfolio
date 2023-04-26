@@ -1,5 +1,14 @@
 <script setup lang="ts">
+import Vivus from 'vivus';
 
+window.onload = () => {
+    const vivus = new Vivus('logo', {
+        type: 'scenario-sync',
+        duration: 15, 
+        forceRender: false ,
+        animTimingFunction:Vivus.EASE
+    })
+};
 </script>
 
 <template>

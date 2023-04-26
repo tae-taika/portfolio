@@ -1,12 +1,27 @@
 <script setup lang="ts">
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import { loadConfigFromFile } from 'vite';
+import TheBreadCrumb from '@/components/TheBreadCrumb.vue';
 </script>
 
 <template>
   <div class="works">
     <Header></Header>
+    <TheBreadCrumb
+      :links="[
+        {
+          url: '/',
+          label: 'TOP',
+        },
+        {
+          url: '/works',
+          label: 'Works',
+        },
+        {
+          label: 'GLAM PRINT',
+        }
+      ]"
+    ></TheBreadCrumb>
     <div class="l-works-container">
       <div class="l-works-header">
         <div class="works__title-area">
@@ -107,8 +122,8 @@ import { loadConfigFromFile } from 'vite';
         <div class="works__side">
           <div class="works__summary">
             <div class="works__summary-item">
-              <div class="works__summary-title">制作期間</div>
-              <div class="works__summary-detail">20XX年X月〜現在</div>
+              <div class="works__summary-title">担当期間</div>
+              <div class="works__summary-detail">2019年10月〜現在</div>
             </div>
             <div class="works__summary-item">
               <div class="works__summary-title">担当領域</div>
@@ -150,98 +165,12 @@ import { loadConfigFromFile } from 'vite';
       </div>
     </div>
     <Footer></Footer>
-
-
-
-
-
-
-
   </div>
 </template>
 
 <style lang="scss" scoped>
 @import '@/assets/scss/variables';
 @import '@/assets/scss/layout';
-
-.works{
-  &__title-area{
-    padding: 40px 0;
-    text-align: center;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-  }
-  &__title{
-    font-size: 32px;
-    letter-spacing: 4px;
-  }
-  &__title-description{
-    font-size: 18px;
-    font-weight: bold;
-  }
-  &__title-link{
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  &__contents{
-    display: grid;
-    gap: 64px;
-    line-height: 2.25;
-    font-size: 18px;
-  }
-  &__section{
-    display: grid;
-    gap: 40px;
-    grid-auto-rows: max-content;
-  }
-  &__section-title{
-    font-size: 20px;
-    border-left: 4px solid $green-light;
-    padding-left: 20px;
-    line-height: 2;
-  }
-  &__section-img{
-    width: 100%;
-    img {
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      object-fit: cover;
-    }
-  }
-  &__img-description{
-    font-size: 14px;
-    color: $gray-light;
-    line-height: 1.5;
-    padding: 8px 0;
-  }
-  &__section-list{
-    margin-left: 1em;
-  }
-
-  &__summary{
-    display: grid;
-    gap: 24px;
-    padding: 24px 40px;
-    border: 1px solid $gray-light;
-    border-radius: 4px;
-    font-size: 16px;
-    color: $gray-light;
-  }
-  &__summary-item{
-    display: grid;
-    gap: 12px;
-  }
-  &__summary-title{
-    font-weight: bold;
-  }
-
-  
-
-
-
-}
+@import '@/assets/scss/works';
 
 </style>
