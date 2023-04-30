@@ -10,8 +10,9 @@ export default defineConfig({
   
     VitePluginFonts({
       google: {
-        families: [
-          'Noto Sans JP',
+        families: [{
+          name: 'Zen Kaku Gothic New',styles: 'wght@400;700',
+        },
           'Jost',
         ],
       }
