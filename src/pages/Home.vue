@@ -2,6 +2,7 @@
 import Header from '@/components/Header.vue'
 import TopAnimation from '@/components/TopAnimation.vue';
 import Footer from '@/components/Footer.vue';
+import ButtonLarge from '@/components/ButtonLarge.vue';
 </script>
 
 <template>
@@ -46,12 +47,13 @@ import Footer from '@/components/Footer.vue';
         </RouterLink>           
       </div>
     </div>
-    <div class="home__section">
-      <div class="home__section-title">Skill</div>
-      <div class="home__skill-wrapper">
-
-      </div>
+    <div class="home__button-wrapper">
+      <ButtonLarge
+        link="/works"   
+      >VIEW MORE Works</ButtonLarge>
     </div>
+
+
     <div class="home__section">
       <div class="home__section-title">Profile</div>
       <div class="home__profile-wrapper">
@@ -61,18 +63,16 @@ import Footer from '@/components/Footer.vue';
         <div class="home__profile-detail">
           <div class="home__profile-name">Miho Tanabe</div>
           <div class="home__profile-text">
-            <p>1979年 神奈川県横浜市生まれ。<br>
-            30代前半まで約10年、某携帯電話キャリアのショップスタッフとして勤務。<br>
-            職業訓練校で基礎を学んだのちweb制作の業務に携わる。<br>
-            現在は事業会社で自社webサービスのデザイナー/コーダー/プロダクトマネージャー/コンテンツディレクターなどを担当。
-            </p>
+            <p>1979年 神奈川県横浜市生まれ</p>
           </div>
-
-        </div>
-
+        </div> 
       </div>
     </div>
-
+    <div class="home__button-wrapper">
+      <ButtonLarge
+        link="/profile" 
+      >VIEW MORE Profile</ButtonLarge>
+    </div> 
 
     <Footer></Footer>
   </div>
@@ -99,6 +99,11 @@ import Footer from '@/components/Footer.vue';
     @include mediaQuery(sm){
       font-size: 22px;
     }
+  }
+  &__button-wrapper{
+    display: grid;
+    align-items: center;
+    justify-content: center;
   }
   &__works-wrapper{
     display: grid;

@@ -1,14 +1,18 @@
 <script setup lang="ts">
 import Vivus from 'vivus';
 
-window.onload = () => {
+function TopAnimation(){
     const vivus = new Vivus('logo', {
-        type: 'scenario-sync',
-        duration: 15, 
-        forceRender: false ,
-        animTimingFunction:Vivus.EASE
-    })
-};
+      type: 'scenario-sync',
+      duration: 15, 
+      forceRender: false ,
+      animTimingFunction:Vivus.EASE
+  })
+}
+window.onload = () =>{
+  TopAnimation();
+}
+
 </script>
 
 <template>

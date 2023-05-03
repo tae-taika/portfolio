@@ -36,10 +36,10 @@
             <div class="profile__intro-sns">
               <div class="profile__intro-sns-notice">↓個人ではSNSをやっておらず、バンドメンバーとしてのアカウントです。</div>
               <div class="profile__intro-sns-icons">
-                <a href="" class="profile__intro-sns-icon" target="_blank">
+                <a href="https://twitter.com/tae_taika" class="profile__intro-sns-icon" target="_blank">
                   <img src="img/icons/icon_twitter.svg" width="24" height="24" alt="twitter">
                 </a>
-                <a href="" class="profile__intro-sns-icon" target="_blank">
+                <a href="https://www.facebook.com/tae.tanabe.585" class="profile__intro-sns-icon" target="_blank">
                   <img src="img/icons/icon_facebook.svg" width="24" height="24" alt="facebook">
                 </a>
               </div>
@@ -193,170 +193,185 @@
             <span class="profile__section-title-sub">これまでの職務経歴</span>
           </h2>
           <div class="profile__career-wrapper">
-            <div class="profile__career-wrapper-item">
-              <div class="profile__career-year">
-                2022
-              </div>
-              <div class="profile__career-point"></div>
-              <div class="profile__career-month">
-                03
-              </div>
-              <div class="profile__career-detail">
-                <h4 class="profile__career-topic">
-                  東海大学文学部文明学科　卒業
-                </h4>
-                <div class="profile__career-text">
-                  西アジア（イスラム文化など）を学ぶ。マンドリンという楽器のサークルに所属。バンド活動も。
+            <div class="profile__career-item">
+              <div class="profile__career-date">
+                <div class="profile__career-year">
+                  2022
                 </div>
+                <div class="profile__career-point"></div>
+                <div class="profile__career-month">
+                  03
+                </div>
+              </div>
+              <div class="profile__career-detail-wrapper">
+                <div class="profile__career-detail">
+                  <h4 class="profile__career-topic">
+                    東海大学文学部文明学科　卒業
+                  </h4>
+                  <div class="profile__career-text">
+                    西アジア（イスラム文化など）を学ぶ。マンドリンという楽器のサークルに所属。バンド活動も。
+                  </div>
+                </div>                
               </div>
             </div>
 
-            <div class="profile__career-wrapper-item">
-              <div class="profile__career-year"></div>
-              <div class="profile__career-point"></div>
-              <div class="profile__career-month">
-                08
-              </div>
-              <div class="profile__career-detail">
-                <h4 class="profile__career-topic">
-                  有限会社グラストン<br>
-                  携帯ショップスタッフ（アルバイト）
-                </h4>
-                <div class="profile__career-period">約12年間</div>
-                <div class="profile__career-text">
-                  auショップスタッフとして勤務。新規契約・機種変更・修理受付などのカウンター接客業務を行う。<br>
-                  ガラケー全盛期からスマホへの移行期、iPhoneの日本発売開始対応などを経験。<br>
-                  後進指導や店内POPの作成なども担当。
+            <div class="profile__career-item">
+              <div class="profile__career-date">
+                <div class="profile__career-year"></div>
+                <div class="profile__career-point"></div>
+                <div class="profile__career-month">
+                  08
                 </div>
+              </div>
+              <div class="profile__career-detail-wrapper">
+                <div class="profile__career-detail">
+                  <h4 class="profile__career-topic">
+                    有限会社グラストン<br>
+                    携帯ショップスタッフ（アルバイト）
+                  </h4>
+                  <div class="profile__career-period">約12年間</div>
+                  <div class="profile__career-text">
+                    auショップスタッフとして勤務。新規契約・機種変更・修理受付などのカウンター接客業務を行う。<br>
+                    ガラケー全盛期からスマホへの移行期、iPhoneの日本発売開始対応などを経験。<br>
+                    後進指導や店内POPの作成なども担当。
+                  </div>
+                </div>                
               </div>
             </div>
 
-            <div class="profile__career-wrapper-item">
-              <div class="profile__career-year">
-                2014
-              </div>
-              <div class="profile__career-point"></div>
-              <div class="profile__career-month">
-                01
-              </div>
-              <div class="profile__career-detail">
-                <h4 class="profile__career-topic">
-                  有限会社グラストン退職、一年間無職に
-                </h4>
-                <div class="profile__career-text">
-                  会社の事業撤退により退職、雇用保険で約一年間を過ごす。<br>
-                  その間、いままで経験がなくやってみたかった「飲食バイト」を経験。ラーメン屋で給仕や仕込み、店のSNSなども担当。<br>
-                  雇用保険制度の受給期限をぎりぎりまで延長し、趣味だったWebサイト制作を仕事にするべく職業訓練校に3ヶ月間通学。
+            <div class="profile__career-item">
+              <div class="profile__career-date">
+                <div class="profile__career-year">
+                  2014
                 </div>
+                <div class="profile__career-point"></div>
+                <div class="profile__career-month">
+                  01
+                </div>                
+              </div>
+              <div class="profile__career-detail-wrapper">
+                <div class="profile__career-detail">
+                  <h4 class="profile__career-topic">
+                    有限会社グラストン退職、一年間無職に
+                  </h4>
+                  <div class="profile__career-text">
+                    会社の事業撤退により退職、雇用保険で約一年間を過ごす。<br>
+                    その間、いままで経験がなくやってみたかった「飲食バイト」を経験。ラーメン屋で給仕や仕込み、店のSNSなども担当。<br>
+                    雇用保険制度の受給期限をぎりぎりまで延長し、趣味だったWebサイト制作を仕事にするべく職業訓練校に3ヶ月間通学。
+                  </div>
+                </div>                
               </div>
             </div>
 
-            <div class="profile__career-wrapper-item">
-              <div class="profile__career-year">
-                2015
-              </div>
-              <div class="profile__career-point"></div>
-              <div class="profile__career-month">
-                03
-              </div>
-              <div class="profile__career-detail">
-                <h4 class="profile__career-topic">
-                  株式会社ミロク情報サービス<br>
-                  Webオペレーター（派遣社員）
-                </h4>
-                <div class="profile__career-period">約3年間</div>
-                <div class="profile__career-text">
-                  <p>
-                    会計システムソリューションなどを扱うIT企業に派遣社員として就業。<br>
-                    コーポレートサイトやシステム利用者向けのサイトの更新運用・コンテンツ制作・リスティングバナー制作などを担当。
-                  </p>
-                  <p>
-                    退職理由：業種所以でデザインの幅が広がらずスキル向上につながらないと感じたため。<br>
-                    HTML/CSS/Photoshop/Illustratorなどを使用。
-                  </p>
+            <div class="profile__career-item">
+              <div class="profile__career-date">
+                <div class="profile__career-year">
+                  2015
                 </div>
+                <div class="profile__career-point"></div>
+                <div class="profile__career-month">
+                  03
+                </div>                
+              </div>
+              <div class="profile__career-detail-wrapper">
+                <div class="profile__career-detail">
+                  <h4 class="profile__career-topic">
+                    株式会社ミロク情報サービス<br>
+                    Webオペレーター（派遣社員）
+                  </h4>
+                  <div class="profile__career-period">約3年間</div>
+                  <div class="profile__career-text">
+                    <p>
+                      会計システムソリューションなどを扱うIT企業に派遣社員として就業。<br>
+                      コーポレートサイトやシステム利用者向けのサイトの更新運用・コンテンツ制作・リスティングバナー制作などを担当。
+                    </p>
+                    <p>
+                      退職理由：業種所以でデザインの幅が広がらずスキル向上につながらないと感じたため。<br>
+                      HTML/CSS/Photoshop/Illustratorなどを使用。
+                    </p>
+                  </div>
+                </div>                
               </div>
             </div>
 
-            <div class="profile__career-wrapper-item">
-              <div class="profile__career-year">
-                2016
-              </div>
-              <div class="profile__career-point"></div>
-              <div class="profile__career-month">
-                10
-              </div>
-              <div class="profile__career-detail">
-                <h4 class="profile__career-topic">
-                  株式会社テイ・デイ・エス<br>
-                  Webデザイナー（派遣社員）
-                </h4>
-                <div class="profile__career-period">約3年間</div>
-                <div class="profile__career-text">
-                  <p>
-                    クライアントワーク中心の制作会社に派遣のWebデザイナーとして就業。<br>
-                    正社員デザイナーの補佐としてバナー量産やスポットのLPデザインなど、定期更新の運用案件（コーディング含む）も担当。<br>
-                    代理店担当者と直接やりとりすることもあり、ディレクター的な業務も行なった。
-                  </p>
-                  <p>
-                    実績：中京銀行ローンLPデザイン、ローソン銀行アプリ紹介クリエイティブなど。<br>
-                    退職理由：成果物の効果を知ることができない（作って終わり）、ルーティン作業にやりがいを見出せなくなってきた。<br>
-                    HTML/CSS/Photoshop/Illustratorなどを使用。
-                  </p>
+            <div class="profile__career-item">
+              <div class="profile__career-date">
+                <div class="profile__career-year">
+                  2016
                 </div>
+                <div class="profile__career-point"></div>
+                <div class="profile__career-month">
+                  10
+                </div>                
+              </div>
+              <div class="profile__career-detail-wrapper">
+                <div class="profile__career-detail">
+                  <h4 class="profile__career-topic">
+                    株式会社テイ・デイ・エス<br>
+                    Webデザイナー（派遣社員）
+                  </h4>
+                  <div class="profile__career-period">約3年間</div>
+                  <div class="profile__career-text">
+                    <p>
+                      クライアントワーク中心の制作会社に派遣のWebデザイナーとして就業。<br>
+                      正社員デザイナーの補佐としてバナー量産やスポットのLPデザインなど、定期更新の運用案件（コーディング含む）も担当。<br>
+                      代理店担当者と直接やりとりすることもあり、ディレクター的な業務も行なった。
+                    </p>
+                    <p>
+                      実績：中京銀行ローンLPデザイン、ローソン銀行アプリ紹介クリエイティブなど。<br>
+                      退職理由：成果物の効果を知ることができない（作って終わり）、ルーティン作業にやりがいを見出せなくなってきた。<br>
+                      HTML/CSS/Photoshop/Illustratorなどを使用。
+                    </p>
+                  </div>
+                </div>                
               </div>
             </div>
 
-
-            <div class="profile__career-wrapper-item">
-              <div class="profile__career-year">
-                2019
+            <div class="profile__career-item">
+              <div class="profile__career-date">
+                <div class="profile__career-year">
+                  2019
+                </div>
+                <div class="profile__career-point"></div>
+                <div class="profile__career-month">
+                  10
+                </div>                
               </div>
-              <div class="profile__career-point"></div>
-              <div class="profile__career-month">
-                10
-              </div>
-              <div class="profile__career-detail">
-                <h4 class="profile__career-topic">
-                  株式会社TeraDox<br>
-                  Webデザイナー/コーダー/ディレクター/PdM（正社員）
-                </h4>
-                <div class="profile__career-period">約3年間</div>
-                <div class="profile__career-now">現職</div>
-                <div class="profile__career-text">
-                  <p>
-                    いくつかのポータルサイト等を運営する事業会社に正社員として入社。<br>
-                    バナーやLP制作、UI改善、紙媒体デザインから、徐々に職務が広がりプロダクトのひとつである年賀状印刷サービスはプロダクトマネージャーとしてサービス企画をしつつデザイン業務なども担当。<br>
-                    SEO対策のためのコンテンツ追加施策では記事ディレクションなども務めた。
-                  </p>
-                  <p>
-                    実績：「GLAM PRINT」リニューアル/マネジメント、「My神社」デザイン、「My求人」デザインなど<br>
-                    退職理由：上流にプロダクト愛やビジョンがなく、事業を成長させるべく業務に従事するモチベーションを保てなくなった。<br>
-                    HTML/CSS/XD/Figma/Photoshop/Illustrator/Vue.jsなどを使用。
-                  </p>
+              <div class="profile__career-detail-wrapper">
+                <div class="profile__career-detail">
+                  <h4 class="profile__career-topic">
+                    株式会社TeraDox<br>
+                    Webデザイナー/コーダー/ディレクター/PdM（正社員）
+                  </h4>
+                  <div class="profile__career-period">約3年間</div>
+                  <div class="profile__career-now">現職</div>
+                  <div class="profile__career-text">
+                    <p>
+                      いくつかのポータルサイト等を運営する事業会社に正社員として入社。<br>
+                      バナーやLP制作、UI改善、紙媒体デザインから、徐々に職務が広がりプロダクトのひとつである年賀状印刷サービスはプロダクトマネージャーとしてサービス企画をしつつデザイン業務なども担当。<br>
+                      SEO対策のためのコンテンツ追加施策では記事ディレクションなども務めた。
+                    </p>
+                    <p>
+                      実績：「GLAM PRINT」リニューアル/マネジメント、「My神社」デザイン、「My求人」デザインなど<br>
+                      退職理由：上流にプロダクト愛やビジョンがなく、事業を成長させるべく業務に従事するモチベーションを保てなくなった。<br>
+                      HTML/CSS/XD/Figma/Photoshop/Illustrator/Vue.jsなどを使用。
+                    </p>
+                  </div>                  
                 </div>
               </div>
             </div>
           </div>
-
-
-
-
-
         </div>
-
-
-
-
-
       </div>
     </div>
   </div>
+  <Footer></Footer>
 </template>
 
 <script setup lang="ts">
   import Header from '@/components/Header.vue'
   import TheBreadCrumb from '@/components/TheBreadCrumb.vue';
+  import Footer from '@/components/Footer.vue';
 </script>
 
 <style lang="scss" scoped>
@@ -501,6 +516,79 @@
       display: grid;
       align-items: center;
       justify-content: center;
+    }
+    &__career{
+
+    }
+    &__caerer-wrapper{
+      display: grid;
+    }
+    &__career-item{
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      column-gap: 24px;
+    }
+    &__career-date{
+      position: relative;
+      display: grid;
+      grid-template-columns: 80px 24px 30px;
+      column-gap: 24px;
+      align-items: center;
+      &::before{
+        content: "";
+        position: absolute;
+        border-left: 1px solid $black;
+        top: 0;
+        bottom: 0;
+        left: 115px;
+        height: 100%;
+      }
+    }
+    &__career-year{
+      width: 80px;
+      font-family: $en-font;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    &__career-point{
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: $green-light;
+      z-index: 1;
+    }
+    &__career-month{
+      font-family: $en-font;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    &__career-detail-wrapper{
+      padding: 24px 0;
+      &:last-of-type{
+        padding: 24px 0 0;
+      }
+    }
+    &__career-detail{
+      display: grid;
+      gap: 8px;
+      background: $gray-blue;
+      padding: 24px;
+    }
+    &__career-period{
+      color: $gray-light;
+    }
+    &__career-text{
+      line-height: 1.6;
+      display: grid;
+      gap: 14px;
+    }
+    &__career-now{
+      display: block;
+      padding: 2px 8px;
+      background: $gray-light;
+      color: $white;
+      border-radius: 4px;
+      width: fit-content;
     }
   }
 </style>
