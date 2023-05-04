@@ -1,10 +1,3 @@
-<script setup lang="ts">
-import Header from '@/components/Header.vue'
-import TopAnimation from '@/components/TopAnimation.vue';
-import Footer from '@/components/Footer.vue';
-import ButtonLarge from '@/components/ButtonLarge.vue';
-</script>
-
 <template>
   <div class="home">
     <!-- <Header></Header> -->
@@ -14,7 +7,7 @@ import ButtonLarge from '@/components/ButtonLarge.vue';
       <div class="home__works-wrapper">
         <RouterLink to="/glamprint">
           <div class="home__works-item">
-            <img src="img/img_works_gp.png" width="317" height="178">
+            <img src="img/works/img_works_gp.png" width="317" height="178">
             <div class="home__works-item--text">
               <p>
                 年賀状作成サービス「GLAM PRINT」<br>
@@ -25,7 +18,7 @@ import ButtonLarge from '@/components/ButtonLarge.vue';
         </RouterLink>
         <RouterLink to="/myjinja">
         <div class="home__works-item">
-          <img src="img/img_works_myjinja.png" width="317" height="178">
+          <img src="img/works/img_works_myjinja.png" width="317" height="178">
           <div class="home__works-item--text">
             <p>
               神社ポータルサイト「My神社」<br>
@@ -36,7 +29,7 @@ import ButtonLarge from '@/components/ButtonLarge.vue';
         </RouterLink>
         <RouterLink to="/mykyujin">
         <div class="home__works-item">
-          <img src="img/img_works_mykyujin.png" width="317" height="178">
+          <img src="img/works/img_works_mykyujin.png" width="317" height="178">
           <div class="home__works-item--text">
             <p>
               業界特化型求人サイト「My求人」<br>
@@ -77,6 +70,12 @@ import ButtonLarge from '@/components/ButtonLarge.vue';
     <Footer></Footer>
   </div>
 </template>
+
+<script setup lang="ts">
+import TopAnimation from '@/components/TopAnimation.vue';
+import Footer from '@/components/Footer.vue';
+import ButtonLarge from '@/components/ButtonLarge.vue';
+</script>
 
 <style lang="scss" scoped>
 @import '../assets/scss/variables';

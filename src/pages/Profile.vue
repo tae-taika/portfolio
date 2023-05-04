@@ -12,9 +12,9 @@
         }
       ]"
     ></TheBreadCrumb>
-    <div class="l-profile">
-      <div class="l-profile-container">
-        <h1 class="profile__title">Profile</h1>
+    <div class="l-wide">
+      <div class="l-wide-container">
+        <TheTitle>Profile</TheTitle>
         <div class="profile__intro">
           <div class="profile__intro-image-wrapper">
             <img src="img/img_profile.png" width="240" height="240">
@@ -48,68 +48,73 @@
         </div>
 
         <div class="profile__section profile__ability">
-          <h2 class="profile__section-title">
-            Ability
-            <span class="profile__section-title-sub">私のできること</span>
-          </h2>
-          <div class="profile__ability-wrapper">
-            <div class="profile__ability-item">
-              <h3 class="profile__ability-name">
-                Webデザイン
-              </h3>
-              <div class="profile__ability-text">
-                ランディングページのデザインやリスティングバナー制作、記事コンテンツアイキャッチなど。<br>
-                訴求目的に応じた構成と、Saas系/toCなどのターゲットを意識したデザインを心がけています。
+          <SectionTitle
+            title="Ability"
+            titlejp="私のできること"
+          ></SectionTitle>
+          <div class="profile__ability-container">
+            <div class="profile__ability-wrapper">
+              <div class="profile__ability-item">
+                <h3 class="profile__ability-name">
+                  Webデザイン
+                </h3>
+                <div class="profile__ability-text">
+                  ランディングページのデザインやリスティングバナー制作、記事コンテンツアイキャッチなど。<br>
+                  訴求目的に応じた構成と、Saas系/toCなどのターゲットを意識したデザインを心がけています。
+                </div>
+              </div>
+
+              <div class="profile__ability-item">
+                <h3 class="profile__ability-name">
+                  UIデザイン
+                </h3>
+                <div class="profile__ability-text">
+                  ユーザー視点に立ち、ユーザーが達成したいゴール・プロダクトが達成すべきゴールを見据えたUIデザインを行います。<br>
+                  ポータルサイト、toC向けの印刷サービスサイトなどを作成してきました。
+                </div>
+              </div>
+
+              <div class="profile__ability-item">
+                <h3 class="profile__ability-name">
+                  グラフィックデザイン
+                </h3>
+                <div class="profile__ability-text">
+                  ユーザー向けの郵送DMやリーフレットなどの紙媒体、年賀状テンプレート作成など。<br>
+                  プライベートでは自身のバンドのライブやアルバムリリースフライヤーなども手がけました。
+                </div>
               </div>
             </div>
 
-            <div class="profile__ability-item">
-              <h3 class="profile__ability-name">
-                UIデザイン
-              </h3>
-              <div class="profile__ability-text">
-                ユーザー視点に立ち、ユーザーが達成したいゴール・プロダクトが達成すべきゴールを見据えたUIデザインを行います。<br>
-                ポータルサイト、toC向けの印刷サービスサイトなどを作成してきました。
+            <div class="profile__ability-wrapper">
+              <div class="profile__ability-item">
+                <h3 class="profile__ability-name">
+                  コーディング
+                </h3>
+                <div class="profile__ability-text">
+                  HTML5/CSS3を用いたwebサイトのコーディングができます。<br>
+                  これまでの業務ではBEM+Scss記法がメイン。まだまだ勉強中ですがVue.jsでコンポーネントの作成なども少し経験しました。
+                </div>
               </div>
-            </div>
 
-            <div class="profile__ability-item">
-              <h3 class="profile__ability-name">
-                グラフィックデザイン
-              </h3>
-              <div class="profile__ability-text">
-                ユーザー向けの郵送DMやリーフレットなどの紙媒体、年賀状テンプレート作成など。<br>
-                プライベートでは自身のバンドのライブやアルバムリリースフライヤーなども手がけました。
-              </div>
-            </div>
-
-            <div class="profile__ability-item">
-              <h3 class="profile__ability-name">
-                コーディング
-              </h3>
-              <div class="profile__ability-text">
-                HTML5/CSS3を用いたwebサイトのコーディングができます。<br>
-                これまでの業務ではBEM+Scss記法がメイン。まだまだ勉強中ですがVue.jsでコンポーネントの作成なども少し経験しました。
-              </div>
-            </div>
-
-            <div class="profile__ability-item">
-              <h3 class="profile__ability-name">
-                ディレクション
-              </h3>
-              <div class="profile__ability-text">
-                サービスの追加施策や新規開発の要件定義・タスクとスケジュール管理などのディレクションを行いました。<br>
-                SEO対策のためのメディア記事のキーワード・記事構成・校正などのメディアコンテンツのディレクションと自ら執筆もします。
+              <div class="profile__ability-item">
+                <h3 class="profile__ability-name">
+                  ディレクション
+                </h3>
+                <div class="profile__ability-text">
+                  サービスの追加施策や新規開発の要件定義・タスクとスケジュール管理などのディレクションを行いました。<br>
+                  SEO対策のためのメディア記事のキーワード・記事構成・校正などのメディアコンテンツのディレクションと自ら執筆もします。
+                </div>
               </div>
             </div>
           </div>
+
         </div>
 
         <div class="profile__section profile__skills">
-          <h2 class="profile__section-title">
-            Skill & Tools
-            <span class="profile__section-title-sub">スキルと使えるツール</span>
-          </h2>
+          <SectionTitle
+            title="Skill & Tools"
+            titlejp="スキルと使えるツール"
+          ></SectionTitle>
           <div class="profile__skills-wrapper">
             <div class="profile__skills-item">
               <img src="img/profile/img_profile_ps.svg"  class="profile__skills-item-img" width="80" height="80" alt="Photoshop">
@@ -178,20 +183,20 @@
         </div>
 
         <div class="profile__section profile__matrix">
-          <h2 class="profile__section-title">
-            Matrix
-            <span class="profile__section-title-sub">志向と能力の自己分析図</span>
-          </h2>
+          <SectionTitle
+            title="Matrix"
+            titlejp="志向と能力の自己分析図"
+          ></SectionTitle>
           <div class="profile__matrix-graph">
             <img src="img/profile/img_profile_matrix.png" width="976" height="370" alt="志向と能力の自己分析図">
           </div>
         </div>
 
         <div class="profile__section profile__career">
-          <h2 class="profile__section-title">
-            Job carrer
-            <span class="profile__section-title-sub">これまでの職務経歴</span>
-          </h2>
+          <SectionTitle
+            title="Job carrer"
+            titlejp="これまでの職務経歴"
+          ></SectionTitle>
           <div class="profile__career-wrapper">
             <div class="profile__career-item">
               <div class="profile__career-date">
@@ -372,6 +377,8 @@
   import Header from '@/components/Header.vue'
   import TheBreadCrumb from '@/components/TheBreadCrumb.vue';
   import Footer from '@/components/Footer.vue';
+  import TheTitle from '@/components/TheTitle.vue';
+  import SectionTitle from '@/components/SectionTitle.vue';
 </script>
 
 <style lang="scss" scoped>
@@ -382,27 +389,9 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    &__title{
-      font-family: $en-font;
-      font-size: 42px;
-      text-align: center;
-    }
     &__section{
       display: grid;
       gap: 40px;
-    }
-    &__section-title{
-      display: grid;
-      gap: 8px;
-      font-family: $en-font;
-      font-size: 32px;
-      text-align: center;
-    }
-    &__section-title-sub{
-      display: block;
-      font-weight: normal;
-      font-family: $jp-font;
-      font-size: 18px;
     }
     &__intro{
       display: grid;
@@ -456,9 +445,13 @@
       grid-template-columns: max-content max-content;
       column-gap: 16px;
     }
+    &__ability-container{
+      display: grid;
+      row-gap: 24px;
+    }
     &__ability-wrapper{
       display: grid;
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(auto-fit, minmax(200px,384px));
       justify-content: center;
       align-items: center;
       gap: 24px;
@@ -516,9 +509,6 @@
       display: grid;
       align-items: center;
       justify-content: center;
-    }
-    &__career{
-
     }
     &__caerer-wrapper{
       display: grid;

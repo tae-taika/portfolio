@@ -19,6 +19,15 @@
     display: block;
     font-size: 18px;
     font-weight: bold;
+    position: relative;
+    text-decoration: underline;
+    &:after{
+      position: absolute;
+      content: url('/img/icons/icon_arrow-up-right.svg');
+      width: 14px;
+      height: 14px;
+      margin-left: 8px;
+    }
   }
   &__contents{
     display: grid;
@@ -70,6 +79,10 @@
   }
   &__summary-title{
     font-weight: bold;
+  }
+  &__button-wrapper{
+    display: grid;
+    justify-content: center;
   }
 
   

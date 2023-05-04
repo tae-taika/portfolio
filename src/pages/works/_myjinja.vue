@@ -2,6 +2,7 @@
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import TheBreadCrumb from '@/components/TheBreadCrumb.vue';
+import ButtonBack from '@/components/Buttonback.vue';
 </script>
 
 <template>
@@ -27,12 +28,12 @@ import TheBreadCrumb from '@/components/TheBreadCrumb.vue';
         <div class="works__title-area">
           <h1 class="works__title">My神社</h1>
           <div class="works__title-description">
-            株式会社TeraDox
+            株式会社TeraDox<br>
             <a href="https://myjinja.com/" class="works__title-link" target="_blank">https://myjinja.com/</a>
           </div>
         </div>
         <div class="works__title__image">
-          <img src="img/img_works_myjinja.png" alt="GLAM PRINT" width="1000" height="562">
+          <img src="img/works/img_works_myjinja.png" alt="My神社" width="1000" height="562">
         </div>
       </div>
 
@@ -118,6 +119,11 @@ import TheBreadCrumb from '@/components/TheBreadCrumb.vue';
             </div>
           </div>
         </div>
+      </div>
+      <div class="works__button-wrapper">
+        <ButtonBack
+          link="/works"
+        >BACK to Works</ButtonBack>
       </div>
     </div>
     <Footer></Footer>
