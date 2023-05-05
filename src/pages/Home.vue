@@ -56,7 +56,7 @@
         <div class="home__profile-detail">
           <div class="home__profile-name">Miho Tanabe</div>
           <div class="home__profile-text">
-            <p>1979年 神奈川県横浜市生まれ</p>
+            <p>Born in Kanagawa, 1979.</p>
           </div>
         </div> 
       </div>

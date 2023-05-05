@@ -49,6 +49,12 @@ import ButtonBack from '@/components/Buttonback.vue';
               まずはアルバムの世界観を伝えることができるメインビジュアルを全面に。背景にもアルバムリーフレットで使用しているラフ画を使用しました。続いてトレーラー、アルバムコンセプト、トラックリストなどを順に構成しました。</p>
             <p>曲ごとのセルフライナーノーツはツイッターでリリース直前から一日一曲ずつ投稿していた内容を転載して毎日更新しました。</p>
           </div>
+
+          <div class="works__section">
+            <p>バンドのwebサイトや動画などは、すべて自分で作成しています。<br>
+            <a href="https://www.taikaweb.jp/" target="_blank">https://www.taikaweb.jp/</a>
+          </p>
+          </div>
         </div>
 
         <div class="works__side">

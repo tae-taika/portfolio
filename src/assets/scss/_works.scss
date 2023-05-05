@@ -84,6 +84,9 @@
     display: grid;
     justify-content: center;
   }
+  &__liner{
+    background: linear-gradient(transparent 60%, $green-light 60%);
+  }
 
   
 

@@ -7,7 +7,6 @@ import { RouterLink } from 'vue-router';
     <div class="footer__inner">
       <RouterLink to="/" class="footer__link-item">TOP</RouterLink>
       <RouterLink to="/works" class="footer__link-item">Work</RouterLink>
-      <RouterLink to="/skill" class="footer__link-item">Skill</RouterLink>
       <RouterLink to="/profile" class="footer__link-item">Profile</RouterLink>
     </div>
     <div class="footer__copyright">2023 Miho Tanabe All rights reserved.</div>

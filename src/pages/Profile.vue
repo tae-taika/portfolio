@@ -37,10 +37,10 @@
               <div class="profile__intro-sns-notice">↓個人ではSNSをやっておらず、バンドメンバーとしてのアカウントです。</div>
               <div class="profile__intro-sns-icons">
                 <a href="https://twitter.com/tae_taika" class="profile__intro-sns-icon" target="_blank">
-                  <img src="img/icons/icon_twitter.svg" width="24" height="24" alt="twitter">
+                  <IconTwitter class="profile__intro-sns-item"></IconTwitter>
                 </a>
                 <a href="https://www.facebook.com/tae.tanabe.585" class="profile__intro-sns-icon" target="_blank">
-                  <img src="img/icons/icon_facebook.svg" width="24" height="24" alt="facebook">
+                  <IconFaceBook  class="profile__intro-sns-item"></IconFaceBook>
                 </a>
               </div>
             </div>
@@ -379,7 +379,10 @@
   import Footer from '@/components/Footer.vue';
   import TheTitle from '@/components/TheTitle.vue';
   import SectionTitle from '@/components/SectionTitle.vue';
+  import IconTwitter from '@/components/icons/IconTwitter.vue';
+  import IconFaceBook from '@/components/icons/IconFacebook.vue';
 </script>
+
 
 <style lang="scss" scoped>
   @import '@/assets/scss/variables';
@@ -444,6 +447,14 @@
       display: grid;
       grid-template-columns: max-content max-content;
       column-gap: 16px;
+    }
+    &__intro-sns-item{
+      width: 24px;
+      height: 24px;
+      transition: 0.3s all;
+      &:hover{
+        fill: $green-light;
+      }
     }
     &__ability-container{
       display: grid;

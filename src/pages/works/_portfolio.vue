@@ -57,12 +57,6 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
 
           <div class="works__section">
-            <h2 class="works__section-title">作成フロー</h2>
-            <p>・メモ書きでWorksに載せる自分の実績をリストアップ〜WFを作成、スクリーンショットなどを収集、テキストを作成<br>
-              ・プロフィールは巷のポートフォリオデザインなどを参考に、書き連ねるままにデザインからそのまま作成</p>
-          </div>
-
-          <div class="works__section">
             <h2 class="works__section-title">Figmaデザインファイル</h2>
             <a href="https://www.figma.com/file/rnWYi2tO9UDuD4OI2SNSUj/%E7%84%A1%E9%A1%8C?node-id=148%3A653&t=pCQuibsOC0e6zQOP-1" target="_blank">https://www.figma.com/file/rnWYi2tO9UDuD4OI2SNSUj/%E7%84%A1%E9%A1%8C?node-id=148%3A653&t=pCQuibsOC0e6zQOP-1</a>
           </div>

@@ -28,7 +28,7 @@ import ButtonBack from '@/components/Buttonback.vue';
         <div class="works__title-area">
           <h1 class="works__title">振袖ポータルサイト 投稿写真ギャラリー</h1>
           <div class="works__title-description">
-            株式会社TeraDox<br>My振袖<br>
+            株式会社TeraDox<br>
             <a href="https://myfurisode.com/report-2023" class="works__title-link" target="_blank">https://myfurisode.com/report-2023</a>
           </div>
         </div>
@@ -68,8 +68,9 @@ import ButtonBack from '@/components/Buttonback.vue';
 
 
           <div class="works__section">
-            <h2 class="works__section-title">2022年verもデザインしています</h2>
-            <a href="https://myfurisode.com/report-2022" target="_blank">https://myfurisode.com/report-2022</a>
+            <p>2022年verもデザインしています。<br>
+              <a href="https://myfurisode.com/report-2022" target="_blank">https://myfurisode.com/report-2022</a>
+            </p>
           </div>
         </div>
 
