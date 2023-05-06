@@ -24,7 +24,7 @@
           <div class="works__wrapper">
             <RouterLink to="/glamprint">
               <div class="works__item">
-                <img src="img/works/img_works_gp.png" width="384" height="216">
+                <img src="/img/works/img_works_gp.png" width="384" height="216">
                 <div class="works__item--text">
                   <p>
                     年賀状作成サービス「GLAM PRINT」<br>
@@ -35,7 +35,7 @@
             </RouterLink>
             <RouterLink to="/myjinja">
             <div class="works__item">
-              <img src="img/works/img_works_myjinja.png" width="384" height="216">
+              <img src="/img/works/img_works_myjinja.png" width="384" height="216">
               <div class="works__item--text">
                 <p>
                   神社ポータルサイト「My神社」<br>
@@ -46,7 +46,7 @@
             </RouterLink>
             <RouterLink to="/mykyujin">
             <div class="works__item">
-              <img src="img/works/img_works_mykyujin.png" width="384" height="216">
+              <img src="/img/works/img_works_mykyujin.png" width="384" height="216">
               <div class="works__item--text">
                 <p>
                   業界特化型求人サイト「My求人」<br>
@@ -65,7 +65,7 @@
           <div class="works__wrapper">
             <RouterLink to="/daijin">
               <div class="works__item">
-                <img src="img/works/img_works_daijin.png" width="384" height="216">
+                <img src="/img/works/img_works_daijin.png" width="384" height="216">
                 <div class="works__item--text">
                   <p>
                     電子契約システム キャンペーンLP<br>
@@ -76,7 +76,7 @@
             </RouterLink>
             <RouterLink to="/report">
             <div class="works__item">
-              <img src="img/works/img_works_report.png" width="384" height="216">
+              <img src="/img/works/img_works_report.png" width="384" height="216">
               <div class="works__item--text">
                 <p>
                   振袖ポータルサイト 投稿写真ギャラリー<br>
@@ -87,7 +87,7 @@
             </RouterLink>
             <!-- <RouterLink to="/mykyujin">
             <div class="works__item">
-              <img src="img/works/img_works_mykyujin.png" width="384" height="216">
+              <img src="/img/works/img_works_mykyujin.png" width="384" height="216">
               <div class="works__item--text">
                 <p>
                   業界特化型求人サイト「My求人」<br>
@@ -106,7 +106,7 @@
           <div class="works__wrapper">
             <RouterLink to="/portfolio">
               <div class="works__item">
-                <img src="img/works/img_works_portfolio.png" width="384" height="216">
+                <img src="/img/works/img_works_portfolio.png" width="384" height="216">
                 <div class="works__item--text">
                   <p>
                     ポートフォリオ<br>
@@ -117,7 +117,7 @@
             </RouterLink>
             <RouterLink to="/annulus">
             <div class="works__item">
-              <img src="img/works/img_works_annulus.png" width="384" height="216">
+              <img src="/img/works/img_works_annulus.png" width="384" height="216">
               <div class="works__item--text">
                 <p>
                   taika 5th album 特設サイト<br>
@@ -128,7 +128,7 @@
             </RouterLink>
             <RouterLink to="/flyer">
             <div class="works__item">
-              <img src="img/works/img_works_flyer.png" width="384" height="216">
+              <img src="/img/works/img_works_flyer.png" width="384" height="216">
               <div class="works__item--text">
                 <p>
                   ライブフライヤー<br>

@@ -33,7 +33,7 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
         <div class="works__title__image">
-          <img src="img/works/img_works_mykyujin.png" alt="My求人" width="1000" height="562">
+          <img src="/img/works/img_works_mykyujin.png" alt="My求人" width="1000" height="562">
         </div>
       </div>
 
@@ -60,7 +60,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_mykyujin1.png" alt="サイトイメージ" width="642" height="360">
+              <img src="/img/works/img_works_mykyujin1.png" alt="サイトイメージ" width="642" height="360">
               <div class="works__img-description">求人一覧の求人カード（左）と求人詳細（右）のUI、情報設計、デザインを担当</div>
             </div>
           </div>
@@ -74,7 +74,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_mykyujin2.png" alt="記事コンテンツページイメージ" width="642" height="360">
+              <img src="/img/works/img_works_mykyujin2.png" alt="記事コンテンツページイメージ" width="642" height="360">
               <div class="works__img-description">記事コンテンツトップ（左）と記事詳細（右）。資格紹介系の記事がPV/UUが高かったです。</div>
             </div>
           </div>

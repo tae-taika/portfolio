@@ -33,7 +33,7 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
         <div class="works__title__image">
-          <img src="img/works/img_works_report.png" alt="成人式オンラインレポート" width="1000" height="562">
+          <img src="/img/works/img_works_report.png" alt="成人式オンラインレポート" width="1000" height="562">
         </div>
       </div>
 
@@ -61,7 +61,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_report1.png" alt="サイトデザイン" width="642" height="360">
+              <img src="/img/works/img_works_report1.png" alt="サイトデザイン" width="642" height="360">
               <div class="works__img-description">アタリver（左）はめたver（右）</div>
             </div>
           </div>

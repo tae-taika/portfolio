@@ -33,7 +33,7 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
         <div class="works__title__image">
-          <img src="img/works/img_works_annulus.png" alt="taika 5th album 特設サイト" width="1000" height="562">
+          <img src="/img/works/img_works_annulus.png" alt="taika 5th album 特設サイト" width="1000" height="562">
         </div>
       </div>
 

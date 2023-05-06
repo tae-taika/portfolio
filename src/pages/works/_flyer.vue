@@ -32,7 +32,7 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
         <div class="works__title__image">
-          <img src="img/works/img_works_flyer.png" alt="ライブフライヤー" width="1000" height="562">
+          <img src="/img/works/img_works_flyer.png" alt="ライブフライヤー" width="1000" height="562">
         </div>
       </div>
 
@@ -46,19 +46,19 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_flyer1.png" alt="フライヤーデザイン" width="642" height="360">
+              <img src="/img/works/img_works_flyer1.png" alt="フライヤーデザイン" width="642" height="360">
             </div>
           </div>
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_flyer2.png" alt="フライヤーデザイン" width="642" height="360">
+              <img src="/img/works/img_works_flyer2.png" alt="フライヤーデザイン" width="642" height="360">
             </div>
           </div>
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_flyer3.png" alt="フライヤーデザイン" width="642" height="360">
+              <img src="/img/works/img_works_flyer3.png" alt="フライヤーデザイン" width="642" height="360">
             </div>
           </div>
         </div>

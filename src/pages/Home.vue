@@ -7,7 +7,7 @@
       <div class="home__works-wrapper">
         <RouterLink to="/glamprint">
           <div class="home__works-item">
-            <img src="img/works/img_works_gp.png" width="317" height="178">
+            <img src="/img/works/img_works_gp.png" width="317" height="178">
             <div class="home__works-item--text">
               <p>
                 年賀状作成サービス「GLAM PRINT」<br>
@@ -18,7 +18,7 @@
         </RouterLink>
         <RouterLink to="/myjinja">
         <div class="home__works-item">
-          <img src="img/works/img_works_myjinja.png" width="317" height="178">
+          <img src="/img/works/img_works_myjinja.png" width="317" height="178">
           <div class="home__works-item--text">
             <p>
               神社ポータルサイト「My神社」<br>
@@ -29,7 +29,7 @@
         </RouterLink>
         <RouterLink to="/mykyujin">
         <div class="home__works-item">
-          <img src="img/works/img_works_mykyujin.png" width="317" height="178">
+          <img src="/img/works/img_works_mykyujin.png" width="317" height="178">
           <div class="home__works-item--text">
             <p>
               業界特化型求人サイト「My求人」<br>
@@ -51,7 +51,7 @@
       <div class="home__section-title">Profile</div>
       <div class="home__profile-wrapper">
         <div class="home__profile-image-wrapper">
-          <img src="img/img_profile.png" width="300" height="300">
+          <img src="/img/img_profile.png" width="300" height="300">
         </div>
         <div class="home__profile-detail">
           <div class="home__profile-name">Miho Tanabe</div>

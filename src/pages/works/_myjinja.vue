@@ -33,7 +33,7 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
         <div class="works__title__image">
-          <img src="img/works/img_works_myjinja.png" alt="My神社" width="1000" height="562">
+          <img src="/img/works/img_works_myjinja.png" alt="My神社" width="1000" height="562">
         </div>
       </div>
 
@@ -52,7 +52,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_myjinja1.png" alt="サイトデザイン" width="642" height="360">
+              <img src="/img/works/img_works_myjinja1.png" alt="サイトデザイン" width="642" height="360">
               <div class="works__img-description">検索UI（左）と特集ページ（右）</div>
             </div>
           </div>
@@ -72,7 +72,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_myjinja2.png" alt="掲載イメージ" width="642" height="360">
+              <img src="/img/works/img_works_myjinja2.png" alt="掲載イメージ" width="642" height="360">
               <div class="works__img-description">anan 2021年1月6日号 掲載イメージ</div>
             </div>
           </div>

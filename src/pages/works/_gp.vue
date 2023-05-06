@@ -33,7 +33,7 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
         <div class="works__title__image">
-          <img src="img/works/img_works_gp.png" alt="GLAM PRINT" width="1000" height="562">
+          <img src="/img/works/img_works_gp.png" alt="GLAM PRINT" width="1000" height="562">
         </div>
       </div>
 
@@ -57,7 +57,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_gp1.png" alt="サイトイメージ" width="642" height="360">
+              <img src="/img/works/img_works_gp1.png" alt="サイトイメージ" width="642" height="360">
               <div class="works__img-description">ただテンプレートが並んでいるだけだった旧年賀状一覧ページ（左）と検索機能やはめ込む画像の切り替え機能が備わった新年賀状一覧ページ（右）</div>
             </div>
           </div>
@@ -89,7 +89,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_gp2.png" alt="テンプレートデザイン" width="642" height="360">
+              <img src="/img/works/img_works_gp2.png" alt="テンプレートデザイン" width="642" height="360">
               <div class="works__img-description">背景カラーのリニューアル（上）、メルマガで訴求した新写真テンプレートと新イラストテンプレート（下）</div>
             </div>
           </div>
@@ -118,7 +118,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_gp3.png" alt="LPデザインなど" width="642" height="360">
+              <img src="/img/works/img_works_gp3.png" alt="LPデザインなど" width="642" height="360">
               <div class="works__img-description">新規獲得リスティング用LP（左）キャンペーンLP（中央）バナー類（右）</div>
             </div>
           </div>

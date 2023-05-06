@@ -20,7 +20,7 @@ window.onload = () =>{
     <div class="top-animation__title">
       <h1>
         <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 580 140" style="enable-background:new 0 0 580 140;" xml:space="preserve">
-          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/logo.svg" width="580" height="140" mask="url(#clipmask)"></image>
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/logo.svg" width="580" height="140" mask="url(#clipmask)"></image>
           <mask id="clipmask" maskUnits="objectBoundingBox">
           <path class="st0" d="M33.5,75.5l-16,45c0,0,23-45,35-39s-5,36-5,36s23-40,33-34s-11,29-1,34s33-27,33-27"/>
           <path class="st0" d="M118.5,80.5c0,0-21,32-10,37s35-25,35-25"/>

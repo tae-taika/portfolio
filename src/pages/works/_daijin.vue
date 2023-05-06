@@ -33,7 +33,7 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
         <div class="works__title__image">
-          <img src="img/works/img_works_daijin.png" alt="契約大臣 電子契約導入半額キャンペーン" width="1000" height="562">
+          <img src="/img/works/img_works_daijin.png" alt="契約大臣 電子契約導入半額キャンペーン" width="1000" height="562">
         </div>
       </div>
 
@@ -53,7 +53,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_daijin1.png" alt="ワイヤーフレーム" width="642" height="360">
+              <img src="/img/works/img_works_daijin1.png" alt="ワイヤーフレーム" width="642" height="360">
               <div class="works__img-description">初回のワイヤーフレーム</div>
             </div>
           </div>
@@ -77,7 +77,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
           <div class="works__section">
             <div class="works__section-img">
-              <img src="img/works/img_works_daijin2.png" alt="ふたつのデザイン" width="642" height="360">
+              <img src="/img/works/img_works_daijin2.png" alt="ふたつのデザイン" width="642" height="360">
               <div class="works__img-description">A案（左）B案（右）</div>
             </div>
           </div>

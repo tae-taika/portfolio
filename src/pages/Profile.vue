@@ -17,7 +17,7 @@
         <TheTitle>Profile</TheTitle>
         <div class="profile__intro">
           <div class="profile__intro-image-wrapper">
-            <img src="img/img_profile.png" width="240" height="240">
+            <img src="/img/img_profile.png" width="240" height="240">
           </div>
           <div class="profile__intro-text-wrapper">
             <div class="profile__intro-name">
@@ -117,7 +117,7 @@
           ></SectionTitle>
           <div class="profile__skills-wrapper">
             <div class="profile__skills-item">
-              <img src="img/profile/img_profile_ps.svg"  class="profile__skills-item-img" width="80" height="80" alt="Photoshop">
+              <img src="/img/profile/img_profile_ps.svg"  class="profile__skills-item-img" width="80" height="80" alt="Photoshop">
               <div class="profile__skills-detail">
                 <div class="profile__skills-name">
                   Photsohop
@@ -129,7 +129,7 @@
             </div>
 
             <div class="profile__skills-item">
-              <img src="img/profile/img_profile_ai.svg"  class="profile__skills-item-img" width="80" height="80" alt="Illustrator">
+              <img src="/img/profile/img_profile_ai.svg"  class="profile__skills-item-img" width="80" height="80" alt="Illustrator">
               <div class="profile__skills-detail">
                 <div class="profile__skills-name">
                   Illustrator
@@ -141,7 +141,7 @@
             </div>
 
             <div class="profile__skills-item">
-              <img src="img/profile/img_profile_xd.svg"  class="profile__skills-item-img" width="80" height="80" alt="XD">
+              <img src="/img/profile/img_profile_xd.svg"  class="profile__skills-item-img" width="80" height="80" alt="XD">
               <div class="profile__skills-detail">
                 <div class="profile__skills-name">
                   XD
@@ -153,7 +153,7 @@
             </div>
 
             <div class="profile__skills-item">
-              <img src="img/profile/img_profile_pr.svg"  class="profile__skills-item-img" width="80" height="80" alt="Premier">
+              <img src="/img/profile/img_profile_pr.svg"  class="profile__skills-item-img" width="80" height="80" alt="Premier">
               <div class="profile__skills-detail">
                 <div class="profile__skills-name">
                   Premier
@@ -165,7 +165,7 @@
             </div>
 
             <div class="profile__skills-item">
-              <img src="img/profile/img_profile_figma.svg"  class="profile__skills-item-img" width="80" height="80" alt="Figma">
+              <img src="/img/profile/img_profile_figma.svg"  class="profile__skills-item-img" width="80" height="80" alt="Figma">
               <div class="profile__skills-detail">
                 <div class="profile__skills-name">
                   Figma
@@ -188,7 +188,7 @@
             titlejp="志向と能力の自己分析図"
           ></SectionTitle>
           <div class="profile__matrix-graph">
-            <img src="img/profile/img_profile_matrix.png" width="976" height="370" alt="志向と能力の自己分析図">
+            <img src="/img/profile/img_profile_matrix.png" width="976" height="370" alt="志向と能力の自己分析図">
           </div>
         </div>
 
