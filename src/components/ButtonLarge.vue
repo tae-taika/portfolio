@@ -1,7 +1,7 @@
 <template>
-  <a :href="link" class="button-large">
+  <RouterLink :to="link" class="button-large">
     <slot />
-  </a>
+  </RouterLink>
 </template>
 
 <script setup lang="ts">
