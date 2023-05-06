@@ -6,23 +6,23 @@ import ButtonBack from '@/components/Buttonback.vue';
 </script>
 
 <template>
+  <Header></Header>
+  <TheBreadCrumb
+    :links="[
+      {
+        url: '/',
+        label: 'TOP',
+      },
+      {
+        url: '/works',
+        label: 'Works',
+      },
+      {
+        label: 'GLAM PRINT',
+      }
+    ]"
+  ></TheBreadCrumb>
   <div class="works">
-    <Header></Header>
-    <TheBreadCrumb
-      :links="[
-        {
-          url: '/',
-          label: 'TOP',
-        },
-        {
-          url: '/works',
-          label: 'Works',
-        },
-        {
-          label: 'GLAM PRINT',
-        }
-      ]"
-    ></TheBreadCrumb>
     <div class="l-works-container">
       <div class="l-works-header">
         <div class="works__title-area">
@@ -32,7 +32,7 @@ import ButtonBack from '@/components/Buttonback.vue';
             <a href="https://glam-print.com/" class="works__title-link" target="_blank">https://glam-print.com/</a>
           </div>
         </div>
-        <div class="works__title__image">
+        <div class="works__title-image">
           <img src="/img/works/img_works_gp.png" alt="GLAM PRINT" width="1000" height="562">
         </div>
       </div>

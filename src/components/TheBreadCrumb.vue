@@ -33,6 +33,10 @@ const props = defineProps<Props>();
   width: 1000px;
   margin: 0 auto;
   padding: 24px 0;
+  @include mediaQuery(sm){
+    width: 100%;
+    padding: 16px;
+  }
   &__wrapper{
     width: 100%;
     display: flex;

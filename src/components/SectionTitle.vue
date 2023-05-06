@@ -23,11 +23,17 @@ const props = withDefaults(defineProps<Props>(), {});
   font-family: $en-font;
   font-size: 32px;
   text-align: center;
+  @include mediaQuery(sm){
+    font-size: 24px;
+  }
   &__sub{
     display: block;
     font-weight: normal;
     font-family: $jp-font;
     font-size: 18px;
+    @include mediaQuery(sm){
+      font-size: 14px;
+    }
   }
 }
 </style>

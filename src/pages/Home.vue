@@ -1,7 +1,6 @@
 <template>
-  <div class="home">
-    <!-- <Header></Header> -->
-    <TopAnimation></TopAnimation>
+  <TopAnimation></TopAnimation>
+  <div class="home"> 
     <div class="home__section">
       <div class="home__section-title">Works</div>
       <div class="home__works-wrapper">
@@ -66,9 +65,8 @@
         link="/profile" 
       >VIEW MORE Profile</ButtonLarge>
     </div> 
-
-    <Footer></Footer>
   </div>
+  <Footer></Footer>
 </template>
 
 <script setup lang="ts">
@@ -83,31 +81,38 @@ import ButtonLarge from '@/components/ButtonLarge.vue';
 .home{
   display: grid;
   gap: 80px;
+  @include mediaQuery(sm){
+    padding: 40px 16px;
+  }
   &__section{
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
     gap: 24px;
+    @include mediaQuery(sm){
+      width: 100%;
+    }
   }
   &__section-title{
     font-family: $en-font;
     text-align: center;
-    @include mediaQuery(lg){
-      font-size: 32px;
-    }
-    @include mediaQuery(sm){
-      font-size: 22px;
-    }
+    font-size: 32px;
   }
   &__button-wrapper{
     display: grid;
     align-items: center;
     justify-content: center;
+    @include mediaQuery(sm){
+      padding: 0 16px;
+    }
   }
   &__works-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 24px;
+    @include mediaQuery(sm){
+      grid-template-columns: 1fr;
+    }
   }
   &__works-item{
     background: #eee;
@@ -116,6 +121,7 @@ import ButtonLarge from '@/components/ButtonLarge.vue';
     width: 100%;
      img {
       width: 100%;
+      height: 100%;
       object-fit: cover;
       aspect-ratio: 16 / 9;
      }
@@ -151,11 +157,19 @@ import ButtonLarge from '@/components/ButtonLarge.vue';
     grid-template-columns: max-content 1fr;
     align-items: center;
     gap: 24px;
+    @include mediaQuery(sm){
+      grid-template-columns: 100%;
+      justify-content: center;
+      text-align: center;
+    }
   }
   &__profile-image-wrapper{
     position: relative;
     width: 160px;
     height: 160px;
+    @include mediaQuery(sm){
+      margin: 0 auto;
+    }
     &::before{
       content: "";
       display: block;
@@ -174,6 +188,9 @@ import ButtonLarge from '@/components/ButtonLarge.vue';
   &__profile-detail{
     display: grid;
     gap: 8px;
+    @include mediaQuery(sm){
+      gap: 0;
+    }
   }
 }
 </style>

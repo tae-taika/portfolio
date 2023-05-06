@@ -54,6 +54,10 @@ window.onload = () =>{
 	height: 50vh;
 	background-color: $beige-light;
 	position: relative;
+  @include mediaQuery(sm){
+    padding: 16px;
+    text-align: center;
+  }
 
   &__title{
     text-align: center;
@@ -76,6 +80,9 @@ window.onload = () =>{
   }
   &__text{
     font-family: $en-font;
+    @include mediaQuery(sm){
+      font-size: 14px;
+    }
   }
   // &__scroll{
   //   position: absolute;

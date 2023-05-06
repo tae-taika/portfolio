@@ -1,5 +1,5 @@
 <template>
-  <div class="works">
+  <div class="works-top">
     <Header></Header>
     <TheBreadCrumb
       :links="[
@@ -16,16 +16,16 @@
       <div class="l-wide-container">
         <TheTitle>Works</TheTitle>
 
-        <div class="works__section">
+        <div class="works-top__section">
           <SectionTitle
             title="Product works & design"
             titlejp="プロジェクト全般に関わった仕事・デザイン"
           ></SectionTitle>
-          <div class="works__wrapper">
+          <div class="works-top__wrapper">
             <RouterLink to="/glamprint">
-              <div class="works__item">
+              <div class="works-top__item">
                 <img src="/img/works/img_works_gp.png" width="384" height="216">
-                <div class="works__item--text">
+                <div class="works-top__item--text">
                   <p>
                     年賀状作成サービス「GLAM PRINT」<br>
                     <span>Pdm/Design/Cording etc.</span>
@@ -34,9 +34,9 @@
               </div>
             </RouterLink>
             <RouterLink to="/myjinja">
-            <div class="works__item">
+            <div class="works-top__item">
               <img src="/img/works/img_works_myjinja.png" width="384" height="216">
-              <div class="works__item--text">
+              <div class="works-top__item--text">
                 <p>
                   神社ポータルサイト「My神社」<br>
                   <span>Design/Cording</span>
@@ -45,9 +45,9 @@
             </div>
             </RouterLink>
             <RouterLink to="/mykyujin">
-            <div class="works__item">
+            <div class="works-top__item">
               <img src="/img/works/img_works_mykyujin.png" width="384" height="216">
-              <div class="works__item--text">
+              <div class="works-top__item--text">
                 <p>
                   業界特化型求人サイト「My求人」<br>
                   <span>Design/Cording/Director</span>
@@ -57,16 +57,16 @@
             </RouterLink>           
           </div>
         </div>
-        <div class="works__section">
+        <div class="works-top__section">
           <SectionTitle
             title="LP design"
             titlejp="ランディングページのデザイン"
           ></SectionTitle>
-          <div class="works__wrapper">
+          <div class="works-top__wrapper">
             <RouterLink to="/daijin">
-              <div class="works__item">
+              <div class="works-top__item">
                 <img src="/img/works/img_works_daijin.png" width="384" height="216">
-                <div class="works__item--text">
+                <div class="works-top__item--text">
                   <p>
                     電子契約システム キャンペーンLP<br>
                     <span>Design/Cording</span>
@@ -75,9 +75,9 @@
               </div>
             </RouterLink>
             <RouterLink to="/report">
-            <div class="works__item">
+            <div class="works-top__item">
               <img src="/img/works/img_works_report.png" width="384" height="216">
-              <div class="works__item--text">
+              <div class="works-top__item--text">
                 <p>
                   振袖ポータルサイト 投稿写真ギャラリー<br>
                   <span>Design/Cording</span>
@@ -86,9 +86,9 @@
             </div>
             </RouterLink>
             <!-- <RouterLink to="/mykyujin">
-            <div class="works__item">
+            <div class="works-top__item">
               <img src="/img/works/img_works_mykyujin.png" width="384" height="216">
-              <div class="works__item--text">
+              <div class="works-top__item--text">
                 <p>
                   業界特化型求人サイト「My求人」<br>
                   <span>Design/Cording/Director</span>
@@ -98,16 +98,16 @@
             </RouterLink>            -->
           </div>
         </div>
-        <div class="works__section">
+        <div class="works-top__section">
           <SectionTitle
             title="Private design"
             titlejp="個人でつくったデザイン"
           ></SectionTitle>
-          <div class="works__wrapper">
+          <div class="works-top__wrapper">
             <RouterLink to="/portfolio">
-              <div class="works__item">
+              <div class="works-top__item">
                 <img src="/img/works/img_works_portfolio.png" width="384" height="216">
-                <div class="works__item--text">
+                <div class="works-top__item--text">
                   <p>
                     ポートフォリオ<br>
                     <span>Design/Cording</span>
@@ -116,9 +116,9 @@
               </div>
             </RouterLink>
             <RouterLink to="/annulus">
-            <div class="works__item">
+            <div class="works-top__item">
               <img src="/img/works/img_works_annulus.png" width="384" height="216">
-              <div class="works__item--text">
+              <div class="works-top__item--text">
                 <p>
                   taika 5th album 特設サイト<br>
                   <span>Design/Cording</span>
@@ -127,9 +127,9 @@
             </div>
             </RouterLink>
             <RouterLink to="/flyer">
-            <div class="works__item">
+            <div class="works-top__item">
               <img src="/img/works/img_works_flyer.png" width="384" height="216">
-              <div class="works__item--text">
+              <div class="works-top__item--text">
                 <p>
                   ライブフライヤー<br>
                   <span>Design</span>
@@ -165,7 +165,7 @@ import SectionTitle from '@/components/SectionTitle.vue';
 @import '@/assets/scss/variables';
 @import '@/assets/scss/layout';
 
-.works{
+.works-top{
   &__section{
     display: grid;
     gap: 32px;
@@ -183,6 +183,7 @@ import SectionTitle from '@/components/SectionTitle.vue';
     width: 100%;
      img {
       width: 100%;
+      height: 100%;
       object-fit: cover;
       aspect-ratio: 16 / 9;
      }

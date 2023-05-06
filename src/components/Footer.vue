@@ -28,10 +28,13 @@ import { RouterLink } from 'vue-router';
   &__inner{
     color: $black;
     display: grid;
-    grid-template-columns: repeat(4,max-content);
+    grid-template-columns: repeat(3,max-content);
     justify-content: center;
     column-gap: 40px;
     padding: 40px 0;
+    @include mediaQuery(sm){
+      padding: 16px 0;
+    }
   }
   &__link-item{
     @include mediaQuery(lg){

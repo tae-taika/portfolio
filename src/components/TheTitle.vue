@@ -12,5 +12,8 @@
   font-family: $en-font;
   font-size: 42px;
   text-align: center;
+  @include mediaQuery(sm){
+    font-size: 28px;
+  }
 }
 </style>

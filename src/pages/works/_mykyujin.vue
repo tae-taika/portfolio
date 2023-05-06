@@ -6,23 +6,23 @@ import ButtonBack from '@/components/Buttonback.vue';
 </script>
 
 <template>
-  <div class="works">
-    <Header></Header>
-    <TheBreadCrumb
-      :links="[
-        {
-          url: '/',
-          label: 'TOP',
-        },
-        {
-          url: '/works',
-          label: 'Works',
-        },
-        {
-          label: 'My求人',
-        }
-      ]"
-    ></TheBreadCrumb>
+  <Header></Header>
+  <TheBreadCrumb
+    :links="[
+      {
+        url: '/',
+        label: 'TOP',
+      },
+      {
+        url: '/works',
+        label: 'Works',
+      },
+      {
+        label: 'My求人',
+      }
+    ]"
+  ></TheBreadCrumb>
+  <div class="works">    
     <div class="l-works-container">
       <div class="l-works-header">
         <div class="works__title-area">
@@ -32,7 +32,7 @@ import ButtonBack from '@/components/Buttonback.vue';
             <a href="https://mykyujin.com/" class="works__title-link" target="_blank">https://mykyujin.com/</a>
           </div>
         </div>
-        <div class="works__title__image">
+        <div class="works__title-image">
           <img src="/img/works/img_works_mykyujin.png" alt="My求人" width="1000" height="562">
         </div>
       </div>

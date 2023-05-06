@@ -1,5 +1,4 @@
 <template>
-  <div class="profile">
     <Header></Header>
     <TheBreadCrumb
       :links="[
@@ -12,12 +11,13 @@
         }
       ]"
     ></TheBreadCrumb>
+    <div class="profile">
     <div class="l-wide">
       <div class="l-wide-container">
         <TheTitle>Profile</TheTitle>
         <div class="profile__intro">
           <div class="profile__intro-image-wrapper">
-            <img src="/img/img_profile.png" width="240" height="240">
+            <img src="/img/img_profile.png" width="160" height="160">
           </div>
           <div class="profile__intro-text-wrapper">
             <div class="profile__intro-name">
@@ -107,7 +107,6 @@
               </div>
             </div>
           </div>
-
         </div>
 
         <div class="profile__section profile__skills">
@@ -220,9 +219,11 @@
               </div>
             </div>
 
-            <div class="profile__career-item">
+           <div class="profile__career-item">
               <div class="profile__career-date">
-                <div class="profile__career-year"></div>
+                <div class="profile__career-year">
+                  2022
+                </div>
                 <div class="profile__career-point"></div>
                 <div class="profile__career-month">
                   08
@@ -291,8 +292,7 @@
                       コーポレートサイトやシステム利用者向けのサイトの更新運用・コンテンツ制作・リスティングバナー制作などを担当。
                     </p>
                     <p>
-                      退職理由：業種所以でデザインの幅が広がらずスキル向上につながらないと感じたため。<br>
-                      HTML/CSS/Photoshop/Illustratorなどを使用。
+                      退職理由：業種所以でデザインの幅が広がらずスキル向上につながらないと感じたため。
                     </p>
                   </div>
                 </div>                
@@ -324,8 +324,7 @@
                     </p>
                     <p>
                       実績：中京銀行ローンLPデザイン、ローソン銀行アプリ紹介クリエイティブなど。<br>
-                      退職理由：成果物の効果を知ることができない（作って終わり）、ルーティン作業にやりがいを見出せなくなってきた。<br>
-                      HTML/CSS/Photoshop/Illustratorなどを使用。
+                      退職理由：成果物の効果を知ることができない（作って終わり）、ルーティン作業にやりがいを見出せなくなってきた。
                     </p>
                   </div>
                 </div>                
@@ -349,6 +348,26 @@
                     Webデザイナー/コーダー/ディレクター/PdM（正社員）
                   </h4>
                   <div class="profile__career-period">約3年間</div>
+                  <div class="profile__career-text">
+                    <p>
+                      いくつかのポータルサイト等を運営する事業会社に正社員として入社。<br>
+                      バナーやLP制作、UI改善、紙媒体デザインから、徐々に職務が広がりプロダクトのひとつである年賀状印刷サービスはプロダクトマネージャーとしてサービス企画をしつつデザイン業務なども担当。<br>
+                      SEO対策のためのコンテンツ追加施策では記事ディレクションなども務めた。
+                    </p>
+                    <p>
+                      実績：「GLAM PRINT」リニューアル/マネジメント、「My神社」デザイン、「My求人」デザインなど<br>
+                      退職理由：上流にプロダクト愛やビジョンがなく、事業を成長させるべく業務に従事するモチベーションを保てなくなった。
+                    </p>
+                  </div>
+                </div>                
+              </div>
+              <!-- <div class="profile__career-detail-wrapper">
+                <div class="profile__career-detail">
+                  <h4 class="profile__career-topic">
+                    株式会社TeraDox<br>
+                    Webデザイナー/コーダー/ディレクター/PdM（正社員）
+                  </h4>
+                  <div class="profile__career-period">約3年間</div>
                   <div class="profile__career-now">現職</div>
                   <div class="profile__career-text">
                     <p>
@@ -361,12 +380,14 @@
                       退職理由：上流にプロダクト愛やビジョンがなく、事業を成長させるべく業務に従事するモチベーションを保てなくなった。<br>
                       HTML/CSS/XD/Figma/Photoshop/Illustrator/Vue.jsなどを使用。
                     </p>
-                  </div>                  
+                  </div>
                 </div>
-              </div>
+              </div> -->
             </div>
+
           </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -392,19 +413,30 @@
     display: grid;
     align-items: center;
     justify-content: center;
+    @include mediaQuery(sm){
+      width: 100%;
+      line-height: 1.8;
+    }
     &__section{
       display: grid;
       gap: 40px;
     }
     &__intro{
       display: grid;
-      grid-template-columns: max-content 1fr;
-      column-gap: 40px
+      grid-template-columns: 160px max-content;
+      column-gap: 40px;
+      justify-content: center;
+      @include mediaQuery(sm){
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        row-gap: 24px;
+      }
     }
     &__intro-image-wrapper{
       position: relative;
-      width: 240px;
-      height: 240px;
+      width: 160px;
+      height: 160px;
+      margin: 0 auto;
       &::before{
         content: "";
         display: block;
@@ -439,6 +471,9 @@
     &__intro-sns{
       display: grid;
       gap: 8px;
+      @include mediaQuery(sm){
+        gap: 12px;
+      }
     }
     &__intro-sns-notice{
       font-size: 12px;
@@ -466,6 +501,9 @@
       justify-content: center;
       align-items: center;
       gap: 24px;
+      @include mediaQuery(sm){
+        grid-template-columns: 1fr;
+      }
     }
     &__ability-item{
       height: 100%;
@@ -493,6 +531,10 @@
       grid-template-columns: repeat(5, 120px);
       justify-content: center;
       gap: 80px;
+      @include mediaQuery(sm){
+        grid-template-columns: repeat(3, 80px);
+        gap: 24px;
+      }
     }
     &__skills-item{
       display: grid;
@@ -508,26 +550,50 @@
     }
     &__skills-detail{
       display: grid;
+      @include mediaQuery(sm){
+        font-size: 12px;
+      }
     }
     &__skills-name{
       font-weight: bold;
     }
+    &__skills-notice{
+      @include mediaQuery(sm){
+        font-size: 12x;
+        line-height: 1.2;
+      }
+    }
     &__skills-other{
       text-align: center;
       font-weight: bold;
+      @include mediaQuery(sm){
+        font-size: 14px;
+      }
     }
     &__matrix{
       display: grid;
       align-items: center;
       justify-content: center;
+      img{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+      }
     }
-    &__caerer-wrapper{
+    &__career-wrapper{
       display: grid;
+      @include mediaQuery(sm){
+        row-gap: 24px;
+      }
     }
     &__career-item{
       display: grid;
       grid-template-columns: max-content 1fr;
       column-gap: 24px;
+      @include mediaQuery(sm){
+        grid-template-columns: 1fr;
+        row-gap: 16px;
+      }
     }
     &__career-date{
       position: relative;
@@ -535,6 +601,11 @@
       grid-template-columns: 80px 24px 30px;
       column-gap: 24px;
       align-items: center;
+      @include mediaQuery(sm){
+        column-gap: 12px;
+        align-items: baseline;
+        grid-template-columns: max-content 0 max-content;
+      }
       &::before{
         content: "";
         position: absolute;
@@ -543,6 +614,9 @@
         bottom: 0;
         left: 115px;
         height: 100%;
+        @include mediaQuery(sm){
+          content: none;
+         }
       }
     }
     &__career-year{
@@ -550,6 +624,10 @@
       font-family: $en-font;
       font-size: 32px;
       font-weight: bold;
+      @include mediaQuery(sm){
+        width: fit-content;
+        font-size: 24px;
+      }
     }
     &__career-point{
       width: 24px;
@@ -557,6 +635,9 @@
       border-radius: 50%;
       background: $green-light;
       z-index: 1;
+      @include mediaQuery(sm){
+        display: none;
+      }
     }
     &__career-month{
       font-family: $en-font;
@@ -565,8 +646,14 @@
     }
     &__career-detail-wrapper{
       padding: 24px 0;
+      @include mediaQuery(sm){
+        padding: 0;
+      }
       &:last-of-type{
         padding: 24px 0 0;
+        @include mediaQuery(sm){
+          padding: 0;
+        }
       }
     }
     &__career-detail{

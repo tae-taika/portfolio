@@ -5,20 +5,38 @@
     display: grid;
     align-items: center;
     gap: 40px;
+    @include mediaQuery(sm){
+      width: 100%;
+    }
   }
   &-main{
     display: grid;
     grid-template-columns: 1fr 320px;
     column-gap: 40px;
     position: relative;
+    @include mediaQuery(sm){
+      width: 100%;
+      grid-template-columns: 1fr;
+      row-gap: 40px;
+    }
   }
 }
 .l-wide{
+  @include mediaQuery(sm){
+    width: 100%;
+    padding: 16px;
+  }
   &-container{
     width: 1200px;
     margin: 80px auto;
     display: grid;
     align-items: center;
     gap: 120px;
+    @include mediaQuery(sm){
+      width: 100%;
+      padding: 0 16px;
+      gap: 80px;
+    }
   }
+
 }
