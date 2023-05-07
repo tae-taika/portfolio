@@ -187,7 +187,7 @@
             titlejp="志向と能力の自己分析図"
           ></SectionTitle>
           <div class="profile__matrix-graph">
-            <img src="/img/profile/img_profile_matrix.png" width="976" height="370" alt="志向と能力の自己分析図">
+            <img src="/img/profile/img_profile_matrix.png" width="732" height="566" alt="志向と能力の自己分析図">
           </div>
         </div>
 
@@ -291,9 +291,7 @@
                       会計システムソリューションなどを扱うIT企業に派遣社員として就業。<br>
                       コーポレートサイトやシステム利用者向けのサイトの更新運用・コンテンツ制作・リスティングバナー制作などを担当。
                     </p>
-                    <p>
-                      退職理由：業種所以でデザインの幅が広がらずスキル向上につながらないと感じたため。
-                    </p>
+
                   </div>
                 </div>                
               </div>
@@ -323,8 +321,7 @@
                       代理店担当者と直接やりとりすることもあり、ディレクター的な業務も行なった。
                     </p>
                     <p>
-                      実績：中京銀行ローンLPデザイン、ローソン銀行アプリ紹介クリエイティブなど。<br>
-                      退職理由：成果物の効果を知ることができない（作って終わり）、ルーティン作業にやりがいを見出せなくなってきた。
+                      実績：中京銀行ローンLPデザイン、ローソン銀行アプリ紹介クリエイティブなど。
                     </p>
                   </div>
                 </div>                
@@ -355,39 +352,14 @@
                       SEO対策のためのコンテンツ追加施策では記事ディレクションなども務めた。
                     </p>
                     <p>
-                      実績：「GLAM PRINT」リニューアル/マネジメント、「My神社」デザイン、「My求人」デザインなど<br>
-                      退職理由：上流にプロダクト愛やビジョンがなく、事業を成長させるべく業務に従事するモチベーションを保てなくなった。
+                      実績：「GLAM PRINT」リニューアル/マネジメント、「My神社」デザイン、「My求人」デザインなど
                     </p>
                   </div>
                 </div>                
               </div>
-              <!-- <div class="profile__career-detail-wrapper">
-                <div class="profile__career-detail">
-                  <h4 class="profile__career-topic">
-                    株式会社TeraDox<br>
-                    Webデザイナー/コーダー/ディレクター/PdM（正社員）
-                  </h4>
-                  <div class="profile__career-period">約3年間</div>
-                  <div class="profile__career-now">現職</div>
-                  <div class="profile__career-text">
-                    <p>
-                      いくつかのポータルサイト等を運営する事業会社に正社員として入社。<br>
-                      バナーやLP制作、UI改善、紙媒体デザインから、徐々に職務が広がりプロダクトのひとつである年賀状印刷サービスはプロダクトマネージャーとしてサービス企画をしつつデザイン業務なども担当。<br>
-                      SEO対策のためのコンテンツ追加施策では記事ディレクションなども務めた。
-                    </p>
-                    <p>
-                      実績：「GLAM PRINT」リニューアル/マネジメント、「My神社」デザイン、「My求人」デザインなど<br>
-                      退職理由：上流にプロダクト愛やビジョンがなく、事業を成長させるべく業務に従事するモチベーションを保てなくなった。<br>
-                      HTML/CSS/XD/Figma/Photoshop/Illustrator/Vue.jsなどを使用。
-                    </p>
-                  </div>
-                </div>
-              </div> -->
             </div>
-
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -574,6 +546,11 @@
       display: grid;
       align-items: center;
       justify-content: center;
+      width: 60%;
+      margin: 0 auto;
+      @include mediaQuery(sm){
+        width: 100%;
+      }
       img{
         object-fit: contain;
         width: 100%;
@@ -603,8 +580,7 @@
       align-items: center;
       @include mediaQuery(sm){
         column-gap: 12px;
-        align-items: baseline;
-        grid-template-columns: max-content 0 max-content;
+        grid-template-columns: max-content 8px max-content;
       }
       &::before{
         content: "";
@@ -626,7 +602,7 @@
       font-weight: bold;
       @include mediaQuery(sm){
         width: fit-content;
-        font-size: 24px;
+        font-size: 20px;
       }
     }
     &__career-point{
@@ -636,13 +612,17 @@
       background: $green-light;
       z-index: 1;
       @include mediaQuery(sm){
-        display: none;
+        width: 8px;
+        height: 8px;
       }
     }
     &__career-month{
       font-family: $en-font;
       font-size: 24px;
       font-weight: bold;
+      @include mediaQuery(sm){
+        font-size: 20px;
+      }
     }
     &__career-detail-wrapper{
       padding: 24px 0;
