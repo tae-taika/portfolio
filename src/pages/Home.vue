@@ -81,6 +81,7 @@ import ButtonLarge from '@/components/ButtonLarge.vue';
 .home{
   display: grid;
   gap: 80px;
+  padding: 80px 0;
   @include mediaQuery(sm){
     padding: 40px 16px;
   }
