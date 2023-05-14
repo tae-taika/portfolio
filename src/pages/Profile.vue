@@ -25,12 +25,11 @@
             </div>
             <div class="profile__intro-about">
               <p>
-                30代前半まで10数年、某携帯電話キャリアのショップスタッフとして勤務。<br>
-                職業訓練校で基礎を学んだのちweb制作の業務に携わる。<br>
-                現在は事業会社で自社webサービスのデザイナー/コーダー/プロダクトマネージャー/コンテンツディレクターなどを担当。
+                10数年接客業に従事したのち、2015年よりWebデザイナーに転身。<br>
+                これまでにクライアントワークや自社サービスで、Webデザイン/UIデザイン/コーディング/プロダクトマネジメント/コンテンツディレクションなどを経験。
               </p>
               <p>
-                音楽（バンドやってます）、スーパー銭湯、間取り図をみること、アニメが好き。
+                プライベートでは、音楽（バンドやってます）、スーパー銭湯、間取り図をみること、アニメが好き。
               </p>
             </div>
             <div class="profile__intro-sns">
@@ -44,6 +43,63 @@
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div class="profile__section profile__about">
+          <SectionTitle
+            title="About"
+            titlejp="私について"
+          ></SectionTitle>
+          <div class="profile__about-container">
+            <div class="profile__about-wrapper">
+              <div class="profile__about-item">
+                <div class="profile__about-title"><span>1.</span>音楽への興味・バンド活動からWeb制作をはじめる</div>
+                <p class="profile__about-text">
+                  音楽が好きで、中学では吹奏楽部に所属し、大学時代から本格的にバンド活動をはじめました。<br>
+                  当時、自分の趣味などを発信する個人サイトを公開するのが流行しており、自分も作りたい！と思い、ホームページ作成ソフトがバンドルされているMacを購入。同じ音楽が好きな人たちと交流しオフ会などもしました。<br>
+                  その後オリジナルのバンドを組むことになり、本格的なWebサイトを作成するためにAdobe DreamweaverやFireworksを使いHTML、CSS、ビジュアル作成を独学で習得。<br>
+                  長年続けていた接客の仕事が勤め先の都合で節目を迎えるにあたり、Web制作の道に進むことを決心しました。
+                </p>
+              </div>
+              <div class="profile__about-item">
+                <div class="profile__about-title"><span>2.</span>職業訓練校で3ヶ月学んだのち、派遣でWeb制作の仕事へ</div>
+                <p class="profile__about-text">
+                  退職後一年間は雇用保険を受給とアルバイトをしながら生活し、その間にWeb制作の学習やバンド活動も含めやりたいことをやりつくしました。<br>
+                  とくによい経験になったことは初めて飲食店（ラーメン屋）でアルバイトをしたことです。とても忙しい店でしたが最少人数でまわす役割分担とチームワーク、よいものを提供するために妥協しないこと、もてなしの精神などは、現在の仕事でも大切にしていることです。<br>
+                  雇用保険受給の最後の三ヶ月間、職業訓練校でHTML、CSS、JQueryを用いたコーディングスキル、PhotoshopやIllustratorなどのアプリケーションの操作を学びました。<br>
+                  その後、学校の斡旋でWeb系の派遣会社に登録し、派遣社員としてWeb制作の仕事を始めました。
+                </p>
+              </div>              
+            </div>
+            <div class="profile__about-wrapper">
+              <div class="profile__about-item">
+                <div class="profile__about-title"><span>3.</span>派遣2社での経験から、サービス志向のデザイナーへ</div>
+                <p class="profile__about-text">
+                  派遣1社目として、財務や会計システムを提供する企業に入社。コーポレートサイト運用・更新・LPデザインなどを担当しました。<br>
+                  ルーティンワークが多くサービスの性質的に求められるデザインが固定化されており、もっと色々なデザインをしてみたいと感じたため、2社目にはWeb制作会社へ入社。<br>
+                  大手代理店から様々な業界のクライアント案件が入っており、いろいろなジャンルのデザインを経験することができましたが、「作って終わり」であること、サービスに踏み込んだデザインを行ってみたいと思い、転職を決意しました。
+                </p>
+              </div>
+              <div class="profile__about-item">
+                <div class="profile__about-title"><span>4.</span>自社サービスを運営する事業会社で幅広い業務を担当</div>
+                <p class="profile__about-text">
+                  複数の口コミサイトなどを運営する事情会社にWebデザイナー/コーダーとして正社員入社しました。<br>
+                  LPデザイン、UI改善、新規コンテンツの立案から作成、パンフレットなどの紙媒体のデザインなど、多岐にわたる業務を担当。<br>
+                  事業のひとつである年賀状事情ではプロダクトマネージャーを任され、サービス全体を自ら作り上げるプロジェクトを経験しました。<br>
+                  会社が新規事業を展開していくなか複数のプロダクトを兼任で担当することが多くなり、よりよりサービスを提供するためにひとつのプロダクトに集中して、同じ目線をもったチームでじっくりと取り組みたいと思うようになりました。
+                </p>
+              </div>
+
+            </div>
+            <div class="profile__about-item">
+              <div class="profile__about-title"><span>5.</span>今後やりたいこと</div>
+              <p class="profile__about-text">
+                なんのために・だれのためにやるのかというミッションが明確なことと、チームあるいは会社全体がその同じ意識をもって取り組んでいることが、結果良い結果を生むために必要なのではないかと思います。<br>
+                自分にとって良いデザインを作る指標もそこにあると信じており、小さな改善もその指標のもとにこだわり、本当に必要なデザインなのか、を自問自答、もしくはチームで考えていけるような仕事がしたいです。<br>
+                自社のプロダクトに愛があるチームのなかで、一緒により良いサービスをつくっていけるような企業で、自分のスキルや経験を総動員して貢献できればと考えています。
+              </p>
+            </div>              
           </div>
         </div>
 
@@ -101,7 +157,7 @@
                   ディレクション
                 </h3>
                 <div class="profile__ability-text">
-                  サービスの追加施策や新規開発の要件定義・タスクとスケジュール管理などのディレクションを行いました。<br>
+                  サービスの追加施策や新規開発の要件定義・タスクとスケジュール管理などのディレクションを行います。<br>
                   SEO対策のためのメディア記事のキーワード・記事構成・校正などのメディアコンテンツのディレクションと自ら執筆もします。
                 </div>
               </div>
@@ -395,7 +451,7 @@
     }
     &__intro{
       display: grid;
-      grid-template-columns: 160px max-content;
+      grid-template-columns: 160px 1fr;
       column-gap: 40px;
       justify-content: center;
       @include mediaQuery(sm){
@@ -461,6 +517,65 @@
       transition: 0.3s all;
       &:hover{
         fill: $green-light;
+      }
+    }
+    &__about-container{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      @include mediaQuery(sm){
+        grid-template-columns: 1fr;
+      }
+    }
+    &__about-wrapper{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      gap: 80px;
+      @include mediaQuery(sm){
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+    &__about-item{
+      line-height: 2;
+      max-width: 560px;
+      @include mediaQuery(sm){
+        max-width: max-content;
+      }
+    }
+    &__about-title{
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      @include mediaQuery(sm){
+        align-items: baseline;
+        padding-bottom: 16px;
+      }
+      span{
+        font-family: $en-font;
+        font-size: 30px;
+        padding-right: 8px;
+        position: relative;
+        &:after{
+          content: "";
+          position: absolute;
+          width: 40px;
+          height: 40px;
+          border-radius: 40px;
+          background-color: $green-light;
+          display: block;
+          top: 8px;
+          z-index: -1;
+        }
+      }
+    }
+    &__about-text{
+      padding-left: 48px;
+      @include mediaQuery(sm){
+        padding-left: 32px;
       }
     }
     &__ability-container{

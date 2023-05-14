@@ -76,6 +76,15 @@
     grid-auto-rows: max-content;
     word-break: break-all;
   }
+  &__section-label{
+    display: block;
+    width: fit-content;
+    padding: 0 10px;
+    background: $green-light;
+    border-radius: 4px;
+    line-height: 1.6;
+    // border: 2px solid $black;
+  }
   &__section-title{
     font-size: 20px;
     border-left: 4px solid $green-light;
@@ -85,6 +94,9 @@
       font-size: 16px;
       line-height: 1.5;
     }
+  }
+  &__section-sub-title{
+    font-weight: bold;
   }
   &__section-img{
     display: grid;
