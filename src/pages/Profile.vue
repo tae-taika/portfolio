@@ -257,7 +257,7 @@
             <div class="profile__career-item">
               <div class="profile__career-date">
                 <div class="profile__career-year">
-                  2022
+                  2002
                 </div>
                 <div class="profile__career-point"></div>
                 <div class="profile__career-month">
@@ -279,7 +279,7 @@
            <div class="profile__career-item">
               <div class="profile__career-date">
                 <div class="profile__career-year">
-                  2022
+                  2002
                 </div>
                 <div class="profile__career-point"></div>
                 <div class="profile__career-month">
