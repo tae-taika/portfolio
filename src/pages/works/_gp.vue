@@ -100,7 +100,13 @@ import ButtonBack from '@/components/Buttonback.vue';
               ユーザーのログイン画面以前のページとフロントのページを切り離し、フロント側は弊社が管理する設計へ変更。<br>
               迅速かつ自由にフロント側を修正・改善できるようになり、工数削減と、臨機応変な訴求の変更により注文件数の増加につながった。
             </p>
+          </div>
 
+          <div class="works__section-img">
+            <img src="/img/works/img_works_gp_1.png" alt="" width="1000" height="563">
+            <div class="works__img-description">新旧サイトマップ。色付きの箇所がシステム会社側の管理部分。</div>
+
+          <div class="works__section"></div>
             <h3 class="works__section-sub-title">コンセプトの見直し</h3>
             <p>            
               <span class="works__section-label">Before</span>
