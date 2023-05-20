@@ -43,6 +43,47 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
 
           <div class="works__section">
+            <div class="works__summary">
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当時期</div>
+                <div class="works__summary-detail">2023年3月〜4月</div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作期間</div>
+                <div class="works__summary-detail">隙間時間で進めて、1ヶ月ほど</div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当領域</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>Webデザイン</li>
+                    <li>コーディング</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作ツール・技術スタック</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>Figma</li>
+                    <li>HTML/CSS</li>
+                    <li>Vue.js（Vue3）</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作体制</div>
+                <div class="works__summary-detail">
+                  <ul role="list">  
+                    <li>自分</li>
+                    <li>元同僚（構築援助）</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="works__section">
             <h2 class="works__section-title">技術スタック</h2>
             <p>実務で触れることの多くなったVue.jsを自分のプロジェクトでも使ってみたく、動作が速いと噂のCLIツールViteを使って構築しました。<br>
               開発環境の構築は専門外でしたが、同僚の助けを得て作ることができました。<br>
@@ -62,46 +103,6 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
 
-        <div class="works__side">
-          <div class="works__summary">
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当時期</div>
-              <div class="works__summary-detail">2023年3月〜4月</div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作期間</div>
-              <div class="works__summary-detail">隙間時間で進めて、1ヶ月ほど</div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当領域</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>Webデザイン</li>
-                  <li>コーディング</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作ツール・技術スタック</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>Figma</li>
-                  <li>HTML/CSS</li>
-                  <li>Vue.js（Vue3）</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作体制</div>
-              <div class="works__summary-detail">
-                <ul role="list">  
-                  <li>自分</li>
-                  <li>元同僚（構築援助）</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="works__button-wrapper">
         <ButtonBack

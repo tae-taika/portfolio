@@ -44,6 +44,50 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
 
           <div class="works__section">
+            <div class="works__summary">
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当期間</div>
+                <div class="works__summary-detail">2019年10月〜現在</div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当領域</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>プロダクトマネジメント</li>
+                    <li>Webデザイン</li>
+                    <li>一部コーディング</li>
+                    <li>コンテンツディレクション</li>
+                    <li>ライティング</li>
+                    <li>メルマガ運用</li>
+                    <li>紙媒体デザイン</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作ツール・技術スタック</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>XD,Illustrator</li>
+                    <li>HTML,CSS</li>
+                    <li>Vue.js,Nuxt.js</li>
+                    <li>Salesforce Pardot</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作体制</div>
+                <div class="works__summary-detail">
+                  <ul role="list">  
+                    <li>PdM兼デザイナー兼コーダー（自分）</li>
+                    <li>デザイナー兼フロントエンド1名</li>
+                    <li>インフラエンジニア1名</li>
+                  </ul>
+                </div>
+              </div>
+            </div>            
+          </div>
+
+          <div class="works__section">
             <h2 class="works__section-title">やったこと① サイトリニューアルディレクション・デザイン</h2>
             <p>2021年に行ったサイトリニューアルのディレクションとデザイン・一部コーディングを担当しました。</p>
             <h3 class="works__section-sub-title">システム構成の変更</h3>
@@ -85,11 +129,9 @@ import ButtonBack from '@/components/Buttonback.vue';
             </p>
           </div>
 
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_gp1.png" alt="サイトイメージ" width="642" height="360">
-              <div class="works__img-description">ただテンプレートが並んでいるだけだった旧年賀状一覧ページ（左）と検索機能やはめ込む画像の切り替え機能が備わった新年賀状一覧ページ（右）</div>
-            </div>
+          <div class="works__section-img">
+            <img src="/img/works/img_works_gp1.png" alt="サイトイメージ" width="1000" height="563">
+            <div class="works__img-description">ただテンプレートが並んでいるだけだった旧年賀状一覧ページ（左）と検索機能やはめ込む画像の切り替え機能が備わった新年賀状一覧ページ（右）</div>
           </div>
 
           <div class="works__section">
@@ -133,12 +175,12 @@ import ButtonBack from '@/components/Buttonback.vue';
             </p>
           </div>
 
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_gp2.png" alt="テンプレートデザイン" width="642" height="360">
-              <div class="works__img-description">背景カラーのリニューアル（上）、メルマガで訴求した新写真テンプレートと新イラストテンプレート（下）</div>
-            </div>
+
+          <div class="works__section-img">
+            <img src="/img/works/img_works_gp2.png" alt="テンプレートデザイン" width="1000" height="563">
+            <div class="works__img-description">背景カラーのリニューアル（上）、メルマガで訴求した新写真テンプレートと新イラストテンプレート（下）</div>
           </div>
+
 
           <div class="works__section">
             <h2 class="works__section-title">SalesForce Pardotを使用したメルマガ運用</h2>
@@ -204,57 +246,12 @@ import ButtonBack from '@/components/Buttonback.vue';
             </ul>
           </div>
 
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_gp3.png" alt="LPデザインなど" width="642" height="360">
-              <div class="works__img-description">新規獲得リスティング用LP（左）キャンペーンLP（中央）バナー類（右）</div>
-            </div>
+          <div class="works__section-img">
+            <img src="/img/works/img_works_gp3.png" alt="LPデザインなど" width="1000" height="563">
+            <div class="works__img-description">新規獲得リスティング用LP（左）キャンペーンLP（中央）バナー類（右）</div>
           </div>
         </div>
 
-        <div class="works__side">
-          <div class="works__summary">
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当期間</div>
-              <div class="works__summary-detail">2019年10月〜現在</div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当領域</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>プロダクトマネジメント</li>
-                  <li>Webデザイン</li>
-                  <li>一部コーディング</li>
-                  <li>コンテンツディレクション</li>
-                  <li>ライティング</li>
-                  <li>メルマガ運用</li>
-                  <li>紙媒体デザイン</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作ツール・技術スタック</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>XD/Illustrator</li>
-                  <li>HTML/CSS</li>
-                  <li>Vue.js/Nuxt.js</li>
-                  <li>Salesforce Pardot</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作体制</div>
-              <div class="works__summary-detail">
-                <ul role="list">  
-                  <li>PdM兼デザイナー兼コーダー（自分）</li>
-                  <li>デザイナー兼フロントエンド1名</li>
-                  <li>インフラエンジニア1名</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="works__button-wrapper">
         <ButtonBack

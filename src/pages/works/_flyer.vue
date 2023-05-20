@@ -41,54 +41,50 @@ import ButtonBack from '@/components/Buttonback.vue';
           <div class="works__section">
             <p>自身のバンドのライブやアルバムリリースのフライヤーをデザインしました。<br>
               紙のデザインは独学です。<br>
-              対バンさんやライブごとの世界観がわかるようなデザインを心がけています。</p>
+              対バンさんやライブごとの世界観がわかるようなデザインを心がけています。
+            </p>
           </div>
 
           <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_flyer1.png" alt="フライヤーデザイン" width="642" height="360">
-            </div>
-          </div>
-
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_flyer2.png" alt="フライヤーデザイン" width="642" height="360">
-            </div>
-          </div>
-
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_flyer3.png" alt="フライヤーデザイン" width="642" height="360">
-            </div>
-          </div>
-        </div>
-
-        <div class="works__side">
-          <div class="works__summary">
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作期間</div>
-              <div class="works__summary-detail">1デザイン2〜5日ほど</div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作ツール・技術スタック</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>Illustraor</li>
-                  <li>Photoshop</li>
-                </ul>
+            <div class="works__summary">
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作期間</div>
+                <div class="works__summary-detail">1デザイン2〜5日ほど</div>
               </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作体制</div>
-              <div class="works__summary-detail">
-                <ul role="list">  
-                  <li>デザイナー兼コーダー（自分）</li>
-                  <li>ディレクター1名</li>
-                  <li>バックエンドエンジニア1名</li>
-                </ul>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作ツール・技術スタック</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>Illustraor</li>
+                    <li>Photoshop</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作体制</div>
+                <div class="works__summary-detail">
+                  <ul role="list">  
+                    <li>デザイナー兼コーダー（自分）</li>
+                    <li>ディレクター1名</li>
+                    <li>バックエンドエンジニア1名</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
+
+          <div class="works__section-img">
+            <img src="/img/works/img_works_flyer1.png" alt="フライヤーデザイン" width="1000" height="563">
+          </div>
+      
+          <div class="works__section-img">
+            <img src="/img/works/img_works_flyer2.png" alt="フライヤーデザイン" width="1000" height="563">
+          </div>
+                 
+          <div class="works__section-img">
+            <img src="/img/works/img_works_flyer3.png" alt="フライヤーデザイン" width="1000" height="563">
+          </div>
+        
         </div>
       </div>
       <div class="works__button-wrapper">

@@ -44,6 +44,48 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
 
           <div class="works__section">
+            <div class="works__summary">
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当時期</div>
+                <div class="works__summary-detail">2023年1月</div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当期間</div>
+                <div class="works__summary-detail">4〜5営業日ほど</div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当領域</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>Webデザイン</li>
+                    <li>コーディング</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作ツール・技術スタック</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>XD</li>
+                    <li>HTML/CSS</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作体制</div>
+                <div class="works__summary-detail">
+                  <ul role="list">  
+                    <li>デザイナー兼コーダー（自分）</li>
+                    <li>ディレクター1名</li>
+                    <li>バックエンドエンジニア1名</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="works__section">
             <h2 class="works__section-title">サイト構成</h2>
             <p>・ページ概要<br>成人式会場へ取材に行き撮影した女の子たちの写真を掲載する「成人式レポート」ページを毎年更新していたが、コロナ渦に入り成人式自体の自粛などもあったため、オンラインで写真を募集し「オンラインレポート」コンテンツとして掲載することになった。</p>
             <P>・ページの目的・ターゲット<br>リアルな成人式振袖コーデを掲載し、翌年以降に成人式を迎えるユーザーへリーチする。</P>
@@ -58,15 +100,12 @@ import ButtonBack from '@/components/Buttonback.vue';
             <p>自分的にはB案推しで、結果的にはディレクターなどのステークホルダー判断でB案となりました。</p>
             <p>初回デザイン時はまだどんな写真が投稿されるのか不明なため、前年度の写真素材を使ってアタリでデザインしていましたが、地方ごとに設定したカラーと振袖や帯などの小物に同じカラーが使われている女の子の写真を合わせて選定したことが小さなこだわりです。</p>
           </div>
-
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_report1.png" alt="サイトデザイン" width="642" height="360">
-              <div class="works__img-description">アタリver（左）はめたver（右）</div>
-            </div>
+        
+          <div class="works__section-img">
+            <img src="/img/works/img_works_report1.png" alt="サイトデザイン" width="1000" height="563">
+            <div class="works__img-description">アタリver（左）はめたver（右）</div>
           </div>
-
-
+        
           <div class="works__section">
             <p>2022年verもデザインしています。<br>
               <a href="https://myfurisode.com/report-2022" target="_blank">https://myfurisode.com/report-2022</a>
@@ -74,46 +113,6 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
 
-        <div class="works__side">
-          <div class="works__summary">
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当時期</div>
-              <div class="works__summary-detail">2023年1月</div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当期間</div>
-              <div class="works__summary-detail">4〜5営業日ほど</div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当領域</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>Webデザイン</li>
-                  <li>コーディング</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作ツール・技術スタック</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>XD</li>
-                  <li>HTML/CSS</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作体制</div>
-              <div class="works__summary-detail">
-                <ul role="list">  
-                  <li>デザイナー兼コーダー（自分）</li>
-                  <li>ディレクター1名</li>
-                  <li>バックエンドエンジニア1名</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="works__button-wrapper">
         <ButtonBack

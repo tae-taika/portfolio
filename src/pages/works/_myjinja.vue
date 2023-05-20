@@ -44,17 +44,53 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
 
           <div class="works__section">
+            <div class="works__summary">
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作期間</div>
+                <div class="works__summary-detail">2020年7月〜2020年10月（ローンチ）</div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当領域</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>Webデザイン</li>
+                    <li>コーディング</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作ツール・技術スタック</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>XD</li>
+                    <li>HTML/CSS</li>
+                    <li>Laravel</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作体制</div>
+                <div class="works__summary-detail">
+                  <ul role="list">  
+                    <li>デザイナー兼コーダー（自分）</li>
+                    <li>ディレクター1名</li>
+                    <li>バックサイドエンジニア1名</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="works__section">
             <h2 class="works__section-title">サイト設計</h2>
             <p>既存ポータルサイトの仕組みを流用するかたちで実装を進めたため、UIについては既存のポータルサイトの基軸に、ユーザーが目的とする「神社さがし」をスムーズに行えるよう設計を行いました。</p>
             <p>エリア・ご利益・ご祈祷の種類・その他感染症対策の有無やバリアフリー対応で絞り込みを可能に。<br>
               お祭りの情報や、季節ごとに「初詣特集」や「敬老の日の長寿祝い特集」、オリンピックの時期には「必勝祈願特集」などの特集ページを定期的に作成しコンテンツを増やしていきました。</p>
           </div>
 
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_myjinja1.png" alt="サイトデザイン" width="642" height="360">
-              <div class="works__img-description">検索UI（左）と特集ページ（右）</div>
-            </div>
+          <div class="works__section-img">
+            <img src="/img/works/img_works_myjinja1.png" alt="サイトデザイン" width="1000" height="563">
+            <div class="works__img-description">検索UI（左）と特集ページ（右）</div>
           </div>
 
           <div class="works__section">
@@ -70,51 +106,13 @@ import ButtonBack from '@/components/Buttonback.vue';
             <p>そのうち雑誌「anan」の神社特集ページに掲載していただき、サイトのコンセプトとデザインが認められたことは自信につながりました。</p>
           </div>
 
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_myjinja2.png" alt="掲載イメージ" width="642" height="360">
-              <div class="works__img-description">anan 2021年1月6日号 掲載イメージ</div>
-            </div>
+          <div class="works__section-img">
+            <img src="/img/works/img_works_myjinja2.png" alt="掲載イメージ" width="1000" height="563">
+            <div class="works__img-description">anan 2021年1月6日号 掲載イメージ</div>
           </div>
+         
         </div>
 
-        <div class="works__side">
-          <div class="works__summary">
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作期間</div>
-              <div class="works__summary-detail">2020年7月〜2020年10月（ローンチ）</div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当領域</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>Webデザイン</li>
-                  <li>コーディング</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作ツール・技術スタック</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>XD</li>
-                  <li>HTML/CSS</li>
-                  <li>Laravel</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作体制</div>
-              <div class="works__summary-detail">
-                <ul role="list">  
-                  <li>デザイナー兼コーダー（自分）</li>
-                  <li>ディレクター1名</li>
-                  <li>バックサイドエンジニア1名</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="works__button-wrapper">
         <ButtonBack

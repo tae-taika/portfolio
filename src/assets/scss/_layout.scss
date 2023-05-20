@@ -3,7 +3,6 @@
     width: 1000px;
     margin: 80px auto;
     display: grid;
-    align-items: center;
     gap: 40px;
     @include mediaQuery(sm){
       width: 100%;
@@ -11,12 +10,13 @@
   }
   &-main{
     display: grid;
-    grid-template-columns: 1fr 320px;
-    column-gap: 40px;
+    grid-template-columns: 100%;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
     position: relative;
     @include mediaQuery(sm){
       width: 100%;
-      grid-template-columns: 1fr;
       row-gap: 40px;
     }
   }

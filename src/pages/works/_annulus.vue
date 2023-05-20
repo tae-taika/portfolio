@@ -42,6 +42,45 @@ import ButtonBack from '@/components/Buttonback.vue';
           <div class="works__section">
             <P>自身のバンドの最新アルバムのプロモーション用に特設サイトを制作しました。</P>
           </div>
+
+          <div class="works__section">
+            <div class="works__summary">
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作時期</div>
+                <div class="works__summary-detail">2022年4月</div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作期間</div>
+                <div class="works__summary-detail">2週間ほど</div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当領域</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>Webデザイン</li>
+                    <li>コーディング</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作ツール・技術スタック</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>XD</li>
+                    <li>HTML/CSS</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作体制</div>
+                <div class="works__summary-detail">
+                  <ul role="list">  
+                    <li>自分</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
           
           <div class="works__section">
             <h2 class="works__section-title">サイト構成・デザインコンセプト</h2>
@@ -57,44 +96,6 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
         </div>
 
-        <div class="works__side">
-          <div class="works__summary">
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作時期</div>
-              <div class="works__summary-detail">2022年4月</div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作期間</div>
-              <div class="works__summary-detail">2週間ほど</div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当領域</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>Webデザイン</li>
-                  <li>コーディング</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作ツール・技術スタック</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>XD</li>
-                  <li>HTML/CSS</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作体制</div>
-              <div class="works__summary-detail">
-                <ul role="list">  
-                  <li>自分</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="works__button-wrapper">
         <ButtonBack

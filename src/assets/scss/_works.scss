@@ -65,16 +65,16 @@
       gap: 40px;
     }
   }
-  &__side{
-    @include mediaQuery(sm){
-      grid-row: 1/2;
-    }
-  }
+
   &__section{
+    width: 640px;
+    margin: 0 auto;
     display: grid;
     gap: 40px;
-    grid-auto-rows: max-content;
     word-break: break-all;
+    @include mediaQuery(sm){
+      width: 100%;
+    }
   }
   &__section-label{
     display: block;
@@ -83,7 +83,6 @@
     background: $green-light;
     border-radius: 4px;
     line-height: 1.6;
-    // border: 2px solid $black;
   }
   &__section-title{
     font-size: 20px;
@@ -99,11 +98,13 @@
     font-weight: bold;
   }
   &__section-img{
+    width: 100%;
     display: grid;
     gap: 8px;
     width: 100%;
     height: 100%;
-    gap: 8px;    @include mediaQuery(sm){
+    gap: 8px;    
+    @include mediaQuery(sm){
       gap: 4px;
     }
     img {
@@ -132,6 +133,7 @@
   }
 
   &__summary{
+    width: inherit;
     display: grid;
     gap: 24px;
     padding: 24px 40px;
@@ -145,13 +147,33 @@
   }
   &__summary-item{
     display: grid;
-    gap: 12px;
-    @include mediaQuery(sm){
-      gap: 4px;
-    }
+    gap: 4px;
   }
   &__summary-title{
     font-weight: bold;
+  }
+  &__summary-detail{
+    line-height: 1.8;
+    li{
+      display: inline-block;
+      &:after{
+        content: "/";
+        padding: 0 2px;
+      }
+    }
+    li:last-of-type{
+      &:after{
+        content: none;
+      }
+    }
+    @include mediaQuery(sm){
+      li{
+        display: block;
+        &:after{
+          content: none;
+        }
+      }
+    }
   }
   &__button-wrapper{
     display: grid;

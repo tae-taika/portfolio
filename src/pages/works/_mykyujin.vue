@@ -45,6 +45,49 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
 
           <div class="works__section">
+            <div class="works__summary">
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作期間</div>
+                <div class="works__summary-detail">
+                  2019年11月〜2020年4月（ローンチ）<br>
+                  2022年3月〜9月
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">担当領域</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>Webデザイン</li>
+                    <li>コーディング</li>
+                    <li>ディレクション</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作ツール・技術スタック</div>
+                <div class="works__summary-detail">
+                  <ul role="list">
+                    <li>XD</li>
+                    <li>HTML/CSS</li>
+                    <li>Laravel/Laravel Nova</li>
+                    <li>Vue.js3</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="works__summary-item">
+                <div class="works__summary-title">制作体制</div>
+                <div class="works__summary-detail">
+                  <ul role="list">  
+                    <li>デザイナー兼コーダー（自分）</li>
+                    <li>フロントエンドエンジニア1名</li>
+                    <li>バックサイドエンジニア2名</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="works__section">
             <h2 class="works__section-title">デザインコンセプト</h2>
             <p>ペルソナは「専門学校卒などで着付けやメイク・写真を学んだ若い人材」「趣味の延長で業界で働きたい人材」「スキルを持っているが結婚出産などでリアタイし業界に復帰したい経験者」。</p>
             <p>若年層から高年齢層まで想定されたことと女性がメインターゲットであることから、ハードルの高さを感じさせない温かみのあるカラーリングを採用しました。</p>
@@ -58,11 +101,10 @@ import ButtonBack from '@/components/Buttonback.vue';
             <p>このリニューアルプロジェクトでは、開発チームで綿密に話し合いを行い制作を進めることができた点が自分には大きい点でした。</p>
           </div>
 
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_mykyujin1.png" alt="サイトイメージ" width="642" height="360">
-              <div class="works__img-description">求人一覧の求人カード（左）と求人詳細（右）のUI、情報設計、デザインを担当</div>
-            </div>
+       
+          <div class="works__section-img">
+            <img src="/img/works/img_works_mykyujin1.png" alt="サイトイメージ" width="1000" height="563">
+            <div class="works__img-description">求人一覧の求人カード（左）と求人詳細（右）のUI、情報設計、デザインを担当</div>
           </div>
 
           <div class="works__section">
@@ -72,56 +114,14 @@ import ButtonBack from '@/components/Buttonback.vue';
             <p>これにより記事経由でのUUは最大270%増となりました。</p>
           </div>
 
-          <div class="works__section">
-            <div class="works__section-img">
-              <img src="/img/works/img_works_mykyujin2.png" alt="記事コンテンツページイメージ" width="642" height="360">
-              <div class="works__img-description">記事コンテンツトップ（左）と記事詳細（右）。資格紹介系の記事がPV/UUが高かったです。</div>
-            </div>
+         
+          <div class="works__section-img">
+            <img src="/img/works/img_works_mykyujin2.png" alt="記事コンテンツページイメージ" width="1000" height="563">
+            <div class="works__img-description">記事コンテンツトップ（左）と記事詳細（右）。資格紹介系の記事がPV/UUが高かったです。</div>
           </div>
+        
         </div>
 
-        <div class="works__side">
-          <div class="works__summary">
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作期間</div>
-              <div class="works__summary-detail">
-                2019年11月〜2020年4月（ローンチ）<br>
-                2022年3月〜9月
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">担当領域</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>Webデザイン</li>
-                  <li>コーディング</li>
-                  <li>ディレクション</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作ツール・技術スタック</div>
-              <div class="works__summary-detail">
-                <ul role="list">
-                  <li>XD</li>
-                  <li>HTML/CSS</li>
-                  <li>Laravel/Laravel Nova</li>
-                  <li>Vue.js3</li>
-                </ul>
-              </div>
-            </div>
-            <div class="works__summary-item">
-              <div class="works__summary-title">制作体制</div>
-              <div class="works__summary-detail">
-                <ul role="list">  
-                  <li>デザイナー兼コーダー（自分）</li>
-                  <li>フロントエンドエンジニア1名</li>
-                  <li>バックサイドエンジニア2名</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="works__button-wrapper">
         <ButtonBack
