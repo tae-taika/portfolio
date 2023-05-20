@@ -9,6 +9,9 @@ import Report from '@/pages/works/_report.vue'
 import Portfolio from '@/pages/works/_portfolio.vue'
 import Annulus from '@/pages/works/_annulus.vue'
 import Flyer from '@/pages/works/_flyer.vue'
+import Lowson from '@/pages/works/_lowson.vue'
+import Tamago from '@/pages/works/_tamago.vue'
+import Chukyo from '@/pages/works/_chukyo.vue'
 
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -24,6 +27,9 @@ const routes = [
     { path: '/portfolio', component: Portfolio },
     { path: '/annulus', component: Annulus },
     { path: '/flyer', component: Flyer },
+    { path: '/lowson', component: Lowson },
+    { path: '/tamago', component: Tamago },
+    { path: '/chukyo', component: Chukyo },
   ]
 
 const router = createRouter({

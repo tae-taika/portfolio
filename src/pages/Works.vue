@@ -85,13 +85,56 @@
               </div>
             </div>
             </RouterLink>
-            <!-- <RouterLink to="/mykyujin">
+            <RouterLink to="/chukyo">
             <div class="works-top__item">
-              <img src="/img/works/img_works_mykyujin.png" width="384" height="216">
+              <img src="/img/works/img_works_chukyo.png" width="384" height="216">
               <div class="works-top__item--text">
                 <p>
-                  業界特化型求人サイト「My求人」<br>
-                  <span>Design/Cording/Director</span>
+                  中京銀行Webマイカーローン LP
+                  <br>
+                  <span>Design</span>
+                </p>
+              </div>
+            </div>
+            </RouterLink>           
+          </div>
+        </div>
+        <div class="works-top__section">
+          <SectionTitle
+            title="Banner design & other"
+            titlejp="バナーデザインそのほか"
+          ></SectionTitle>
+          <div class="works-top__wrapper">
+            <RouterLink to="/lowson">
+              <div class="works-top__item">
+                <img src="/img/works/img_works_lowson.png" width="384" height="216">
+                <div class="works-top__item--text">
+                  <p>
+                    ローソン銀行口座開設アプリ<br>
+                    アプリ画面・プロモーションバナー<br>
+                    <span>Design</span>
+                  </p>
+                </div>
+              </div>
+            </RouterLink>
+            <RouterLink to="/tamago">
+            <div class="works-top__item">
+              <img src="/img/works/img_works_tamago.png" width="384" height="216">
+              <div class="works-top__item--text">
+                <p>
+                  JA全農たまごキャンペーンバナー<br>
+                  <span>Design</span>
+                </p>
+              </div>
+            </div>
+            </RouterLink>
+            <!-- <RouterLink to="/flyer">
+            <div class="works-top__item">
+              <img src="/img/works/img_works_flyer.png" width="384" height="216">
+              <div class="works-top__item--text">
+                <p>
+                  ライブフライヤー<br>
+                  <span>Design</span>
                 </p>
               </div>
             </div>
