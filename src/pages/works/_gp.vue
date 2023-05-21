@@ -40,7 +40,13 @@ import ButtonBack from '@/components/Buttonback.vue';
       <div class="l-works-main">
         <div class="works__contents">
           <div class="works__section">
-            <p>現在在職している会社の事業のひとつである、年賀状Web作成サービス「GLAM PRINT」においてプロダクトマネージャーとしてサービス全体の設計に携わりました。</p>
+            <p>
+              現在在職している会社の事業のひとつである、年賀状Web作成サービス「GLAM PRINT」においてプロダクトマネージャーとしてサービス全体の設計に携わりました。
+            </p>
+            <p>
+              入社した2019年10月、他社が運営していた当サービスを既存ユーザごと買収しサービス1年目で、手探りの状態で運営している状況でした。<br>
+              入社後よりメルマガ運用やクリエイティブ制作に関わり、2021年よりサイトリニューアル計画発足とともにサービス全体をプロデュースするプロダクトマネジメント担当となりました。
+            </p>
           </div>
 
           <div class="works__section">
@@ -88,9 +94,8 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
 
           <div class="works__section">
-            <h2 class="works__section-title">やったこと① サイトリニューアルディレクション・デザイン</h2>
-            <p>2021年に行ったサイトリニューアルのディレクションとデザイン・一部コーディングを担当しました。</p>
-            <h3 class="works__section-sub-title">システム構成の変更</h3>
+            <h2 class="works__section-title">サイトリニューアルで行ったこと① システム構成の変更</h2>
+
             <p>            
               <span class="works__section-label">Before</span>
               サイトのすべてを印刷会社のサーバ/システムでサイト全体を管理しており、都度修正指示を出し確認〜公開のフローが必要で、工数がかかっていた。
@@ -103,46 +108,77 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
 
           <div class="works__section-img">
-            <img src="/img/works/img_works_gp_1.png" alt="" width="1000" height="563">
-            <div class="works__img-description">新旧サイトマップ。色付きの箇所がシステム会社側の管理部分。</div>
+            <img src="/img/works/img_works_gp1.png" alt="" width="1000" height="563">
+            <div class="works__img-description">新旧サイトマップ。改修前（左）は全てのページがシステム会社管理だった。改修後（右）は色付きの箇所を除き、自社で自由に制作が可能になった。</div>
           </div>
-
+          
           <div class="works__section">
-            <h3 class="works__section-sub-title">コンセプトの見直し</h3>
+            <h2 class="works__section-title">サイトリニューアルで行ったこと② コンセプトの見直し</h2>
             <p>            
               <span class="works__section-label">Before</span>
               紙質のよさを訴求し「高級年賀状」というワードで訴求していたが、サービスの持つ真の価値・ユーザーからの評価とは異なるため、サイトリニューアルを機に見直し。
             </p>
             <p>
               <span class="works__section-label">After</span>
-              他社との差異はどこか、ユーザーに受け入れられているのはどの部分か、を深掘り。<br>
-              「シンプルだから魅力的」というコンセプトを見い出し新たに掲げ、メインビジュアルやaboutページに盛り込み「シンプル おしゃれ 年賀状」等のワードで検索上位に表示されるようになった。
+              競合他社との差異はどこか、ユーザーに受け入れられているのはどの部分か、を深掘り。<br>
+              ビジュアル面の刷新と合わせてコンセプト再考のブレストを行い、そこから「シンプルだから魅力的」を新たに制定。<br>
+              マーケティングやSEO対策でもそのコンセプトで統一することにより、「シンプル おしゃれ 年賀状」等のワードで検索上位に表示されるようになった。
             </p>
+          </div>
 
-            <h3 class="works__section-sub-title">デザイン大幅改修</h3>
+          <div class="works__section-img">
+            <img src="/img/works/img_works_gp2.png" alt="" width="1000" height="563">
+            <div class="works__img-description">ブレスト資料の一部。「年賀状業界の無印良品」のような存在、という意見が多く、そこから「シンプルだから魅力的」というコンセプトを制定。</div>
+          </div>
+
+          <div class="works__section-img">
+            <img src="/img/works/img_works_gp3.png" alt="" width="1000" height="563">
+            <div class="works__img-description">リニューアル後のメインビジュアル（左）と、トップページのサービスの特徴の訴求セクション（右）。</div>
+          </div>
+
+
+
+          <div class="works__section">
+            <h2 class="works__section-title">サイトリニューアルで行ったこと③ デザイン改修・情報設計</h2>
             <p>            
               <span class="works__section-label">Before</span>
-              ユーザーが注文に至るまでの導線がわかりづらく、テンプレートの検索機能などもないため、求めるページに辿り着きづらい構成になっていた。<br>
-              デザイン全体もカラー設計の統一がなくレガシーな印象。
+              ユーザーが注文に至るまで導線設計が悪く、デザイン制作〜購入までのフローがわかりづらい設計だった。また、トンマナも統一性がなかった。<br>
+              年賀状一覧ページは検索UIなどがなく、テンプレートの仕分けもなされておらず探しづらい。
             </p>
             <p>
               <span class="works__section-label">After</span>
               主力である「年賀状」をメインの導線に、喪中・寒中見舞い・新たに法人向け年賀状のページを新設。テンプレートをタテヨコ・写真枚数・トリミングなどで検索できるように改修。<br>
-              デザイン作成フローや注文フローも変更になったため、操作ガイドはユーザーが迷わないようすべてサムネイル付きで詳細フローを掲載。FAQ等も整備。<br>
-              結果、ユーザーからの問い合わせは前年より減少させることができた。</p>
+              デザイン作成フローや注文フローも変更になったため、操作ガイドやFAQ等も整備。<br>
+              結果、ユーザーからの問い合わせは前年より減少させることができた。
+            </p>
             <p>
               サイトデザインはメインカラーを年賀状を想定させる「赤」をプライマリカラーに、セカンダリカラーはグレースケールで展開し、極力ポイントカラーを使わないことにより「シンプル」というコンセプトを体現。<br>
               テンプレートそのものが見やすいデザインを目指した。
             </p>
           </div>
 
+          <div class="works__section-img-long">
+            <img src="/img/works/img_works_gp4.png" alt="旧ページデザイン" width="1000" height="964">
+            <div class="works__img-description">リニューアル前のトップページ（左）と、FAQ、ガイドページ（右）。</div>
+          </div>
+
           <div class="works__section-img">
-            <img src="/img/works/img_works_gp1.png" alt="サイトイメージ" width="1000" height="563">
+            <img src="/img/works/img_works_gp5.png" alt="サイトイメージ" width="1000" height="563">
             <div class="works__img-description">ただテンプレートが並んでいるだけだった旧年賀状一覧ページ（左）と検索機能やはめ込む画像の切り替え機能が備わった新年賀状一覧ページ（右）</div>
           </div>
 
+          <div class="works__section-img-long">
+            <img src="/img/works/img_works_gp6.png" alt="新旧トップページ" width="1000" height="736">
+            <div class="works__img-description">リニューアル後のデザイン（XDファイル）。</div>
+          </div>
+
+          <div class="works__section-img-long">
+            <img src="/img/works/img_works_gp7.png" alt="新旧トップページ" width="1000" height="660">
+            <div class="works__img-description">リニューアル後のガイドとFAQページ。ガイドはサムネイルつきで詳細に、FAQは過去の問い合わせ数なども考慮して整備。</div>
+          </div>
+
           <div class="works__section">
-            <h2 class="works__section-title">やったこと② サービス施策ディレクション</h2>
+            <h2 class="works__section-title">サービス施策ディレクション</h2>
             <p>下記の新機能・新サービス・サービス改定などの仕様の策定などのディレクションを行いました。</p>
             <ul class="works__section-list">
               <li>
@@ -169,7 +205,7 @@ import ButtonBack from '@/components/Buttonback.vue';
           </div>
 
           <div class="works__section">
-            <h2 class="works__section-title">やったこと③ テンプレートデザインディレクション</h2>
+            <h2 class="works__section-title">テンプレートデザインディレクション</h2>
             <p>外注クリエイターへのテンプレートの新規デザインディレクション、テンプレート作成時に使用できるカラーの刷新などを行いました。</p>
             <p>
               <span class="works__section-label">Before</span>
@@ -184,7 +220,7 @@ import ButtonBack from '@/components/Buttonback.vue';
 
 
           <div class="works__section-img">
-            <img src="/img/works/img_works_gp2.png" alt="テンプレートデザイン" width="1000" height="563">
+            <img src="/img/works/img_works_gp8.png" alt="テンプレートデザイン" width="1000" height="563">
             <div class="works__img-description">背景カラーのリニューアル（上）、メルマガで訴求した新写真テンプレートと新イラストテンプレート（下）</div>
           </div>
 
@@ -232,30 +268,6 @@ import ButtonBack from '@/components/Buttonback.vue';
               記事コンテンツのデザイン・コーディングも担当。<br>
               シーズンの始まる10月より前の9月ごろから記事掲載をスタートし、12月の拡販期には一ヶ月で約40万PVを獲得。なかでも「年賀状に添える一言メッセージ」という記事は関連キーワードで1、2位に表示され、26万PVほどで数字を大きく伸ばした。
             </p>
-          </div>
-
-          <div class="works__section">
-            <h2 class="works__section-title">そのほかLPデザイン・クリエイティブ作成</h2>
-            <p>新規獲得用のリスティングLP、キャンペーンLPやバナーのデザインを担当しました。</p>
-            <ul class="works__section-list">
-              <li>
-                新規LP<br>
-                <a href="https://glam-print.com/lp/new" target="_blank">https://glam-print.com/lp/new</a>
-              </li>
-              <li>
-                作ります宣言キャンペーンLP<br>
-                <a href="https://glam-print.com/lp/declare" target="_blank">https://glam-print.com/lp/declare</a>
-              </li>
-              <li>
-                デビューキャンペーンLP<br>
-                <a href="https://glam-print.com/lp/debut" target="_blank">https://glam-print.com/lp/debut</a>            
-              </li>
-            </ul>
-          </div>
-
-          <div class="works__section-img">
-            <img src="/img/works/img_works_gp3.png" alt="LPデザインなど" width="1000" height="563">
-            <div class="works__img-description">新規獲得リスティング用LP（左）キャンペーンLP（中央）バナー類（右）</div>
           </div>
         </div>
 
