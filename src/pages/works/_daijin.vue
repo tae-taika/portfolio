@@ -40,7 +40,7 @@ import ButtonBack from '@/components/Buttonback.vue';
       <div class="l-works-main">
         <div class="works__contents">
           <div class="works__section">
-            <p>現職にて、自社プロダクトのひとつである電子契約システム「契約大臣」のキャンペーンLPのデザイン・コーディングを担当しました。</p>
+            <p>電子契約システム「契約大臣」のキャンペーンLPのデザイン・コーディングを担当しました。</p>
           </div>
 
           <div class="works__section">

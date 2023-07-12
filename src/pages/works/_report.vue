@@ -40,7 +40,7 @@ import ButtonBack from '@/components/Buttonback.vue';
       <div class="l-works-main">
         <div class="works__contents">
           <div class="works__section">
-            <P>現職にて、自社プロダクトのひとつである振袖ポータルサイト「My振袖」のユーザー投稿写真のギャラリーページのデザイン・コーディングを担当しました。</P>
+            <P>振袖ポータルサイト「My振袖」のユーザー投稿写真のギャラリーページのデザイン・コーディングを担当しました。</P>
           </div>
 
           <div class="works__section">
