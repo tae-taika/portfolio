@@ -41,7 +41,7 @@ import ButtonBack from '@/components/Buttonback.vue';
         <div class="works__contents">
           <div class="works__section">
             <p>
-              現在在職している会社の事業のひとつである、年賀状Web作成サービス「GLAM PRINT」においてプロダクトマネージャーとしてサービス全体の設計に携わりました。
+              年賀状Web作成サービス「GLAM PRINT」においてプロダクトマネージャーとしてサービス全体の設計に携わりました。
             </p>
             <p>
               入社した2019年10月、他社が運営していた当サービスを既存ユーザごと買収しサービス1年目で、手探りの状態で運営している状況でした。<br>

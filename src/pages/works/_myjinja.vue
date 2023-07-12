@@ -40,7 +40,7 @@ import ButtonBack from '@/components/Buttonback.vue';
       <div class="l-works-main">
         <div class="works__contents">
           <div class="works__section">
-            <p>現職にて、新規プロダクトとして企画されたご祈祷の予約ができる神社ポータルサイト「My神社」のデザインを担当しました。</p>
+            <p>新規プロダクトとして企画されたご祈祷の予約ができる神社ポータルサイト「My神社」のデザインを担当しました。</p>
           </div>
 
           <div class="works__section">
